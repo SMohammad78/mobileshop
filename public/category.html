@@ -52,9 +52,8 @@
                         class="text-slate-600 hover:text-orange-400 transition-all text-xs font-bold lg:text-sm"
                         href="">لپ
                     تاپ</a></li>
-                <li class=""><a
-                        class="text-slate-600 hover:text-orange-400 transition-all text-xs font-bold lg:text-sm"
-                        href="">ساعت
+                <li class=""><a class="text-slate-600 hover:text-orange-400 transition-all text-xs font-bold lg:text-sm"
+                                href="">ساعت
                     هوشمند</a></li>
             </ul>
         </nav>
@@ -245,10 +244,69 @@
     </div>
 </header>
 
+<!-- top header -->
+<header class="container flex md:hidden items-center justify-between mt-5 px-4">
+    <div class="flex items-center gap-5 text-slate-800 transition-all">
+        <!-- user icon mini manage -->
+        <a class="w-10 h-10 bg-white shadow-lg flex items-center justify-center rounded-lg cursor-pointer"
+           href="#">
+            <svg class=" transition-all duration-200 "
+                 fill="none"
+                 height="24"
+                 width="24"
+                 xmlns="http://www.w3.org/2000/svg">
+                <path clip-rule="evenodd"
+                      d="M11.845 21.662C8.152 21.662 5 21.087 5 18.787c0-2.301 3.133-4.425 6.845-4.425 3.691 0 6.844 2.103 6.844 4.404 0 2.3-3.133 2.896-6.845 2.896ZM11.837 11.174a4.386 4.386 0 1 0 0-8.774A4.388 4.388 0 0 0 7.45 6.787a4.37 4.37 0 0 0 4.356 4.387h.031Z"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.5"/>
+            </svg>
+        </a>
+        <div
+                class="flex bg-white rounded-lg shadow-sm overflow-hidden absolute top-12 -left-5 flex-col items-stretch justify-between z-10 w-64">
+        </div>
+        <!-- bag -->
+        <a class="w-10 h-10 bg-white shadow-lg flex items-center justify-center rounded-lg cursor-pointer"
+           href="#">
+            <svg fill="none"
+                 height="24"
+                 width="24"
+                 xmlns="http://www.w3.org/2000/svg">
+                <path
+                        d="M5.524 7C9.414 5.744 13.972 5.456 16 5.5c2.028.044 2.883.766 3.5 2 1 2 .789 6.988-1 8.587-1.788 1.6-9.17 1.751-11.63 0-2.599-1.85-1.241-6.895-1.326-10.344C5.595 3.813 3.5 3.5 3.5 3.5M13 10.5h2.773"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="1.5"/>
+                <path clip-rule="evenodd"
+                      d="M7.264 20.127a.545.545 0 1 1-.001 1.09.545.545 0 0 1 .001-1.09ZM17.595 20.127a.545.545 0 1 1 0 1.09.545.545 0 0 1 0-1.09Z"
+                      fill="currentColor"
+                      fill-rule="evenodd"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.5"/>
+            </svg>
+        </a>
+    </div>
+    <div class="w-10 h-10 bg-white shadow-lg flex items-center justify-center rounded-lg cursor-pointer">
+        <svg class="w-5 h-5 stroke-slate-800"
+             fill="none"
+             stroke="currentColor"
+             stroke-width="1.8"
+             viewBox="0 0 24 24"
+             xmlns="http://www.w3.org/2000/svg">
+            <path d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"/>
+        </svg>
+    </div>
+</header>
+
 <!-- tab bar smartphone -->
 <section class="z-50 block md:hidden shadow-[0_-4px_8px_0_rgba(0,0,0,0,60)]">
-    <nav
-            class="fixed bottom-0 left-0 right-0 bg-white flex items-center justify-center p-2 rounded-tl-xl rounded-tr-xl shadow- shadow-slate-200 w-full z-50">
+    <nav class="fixed bottom-0 left-0 right-0 bg-white flex items-center justify-center p-2 rounded-tl-xl rounded-tr-xl shadow- shadow-slate-200 w-full z-50">
         <ul class="w-full flex justify-evenly itemse-center "
             x-data="{activeBottomTab: 1, activeTabClass: ' text-slate-900 transition-all duration-200 ' }">
             <li :class=" activeBottomTab === 1 ? activeTabClass : '' "
@@ -384,36 +442,199 @@
     </nav>
 </section>
 
-<main>
+<main class="my-10">
     <section class="container">
-        <article class="overflow-hidden px-4 rounded-xl">
-            <div class="blogSwiper mySiwper rounded-xl mt-10">
+        <!-- mobile -->
+        <article class="overflow-hidden px-4 rounded-xl mt-3">
+            <h2 class="text-lg font-bold text-slate-800"> موبایل هوشمند </h2>
+            <div class="blogSwiper mySiwper rounded-xl mt-10 py-3">
                 <div class="swiper-wrapper ">
-                    <figure class="swiper-slide rounded-xl shadow-sm">
-                        <div class="rounded-xl overflow-hidden w-full h-auto">
-                            <img alt=""
-                                 class="rounded-xl w-full"
-                                 src="./../assets/images/products/1.png"></div>
-                        <figcaption class="py-5 px-2">
-                            <h3 class="text-slate-800 font-bold text-sm"> تایتل محصول </h3>
-                            <p class="text-slate-600 text-justify text-xs pt-3 leading-6">
-                                ورم ایپسوم متن ساختگی
-                            </p>
-                            <a class="mt-4 flex items-center gap-3 text-orange-500 hover:text-orange-600 transition"
-                               href="#">
-                                <span class="text-sm"> 154,3000,000 تومان </span>
-                            </a>
-                        </figcaption>
-                    </figure>
+                    <!-- apple brand -->
+                    <a class="swiper-slide rounded-xl bg-white shadow-md !h-36 flex justify-center items-center"
+                       href="#">
+                        <div class="w-[120px] p-3">
+                            <img alt="apple"
+                                 class="w-full h-auto"
+                                 src="./../assets/images/category/apple.png">
+                        </div>
+                    </a>
+
+                    <!-- samsung brand -->
+                    <a class="swiper-slide rounded-xl bg-white shadow-md !h-36 flex justify-center items-center"
+                       href="#">
+                        <div class="w-[120px] p-3">
+                            <img alt="samsung"
+                                 class="w-full h-auto"
+                                 src="./../assets/images/category/samsung.png">
+                        </div>
+                    </a>
+
+                    <!-- xiaomi brand -->
+                    <a class="swiper-slide rounded-xl bg-white shadow-md !h-36 flex justify-center items-center"
+                       href="#">
+                        <div class="w-[120px] p-3">
+                            <img alt="xiaomi"
+                                 class="w-full h-auto"
+                                 src="./../assets/images/category/xiaomi.png">
+                        </div>
+                    </a>
+
+                    <!-- nokia brand -->
+                    <a class="swiper-slide rounded-xl bg-white shadow-md !h-36 flex justify-center items-center"
+                       href="#">
+                        <div class="w-[120px] p-3">
+                            <img alt="nokia"
+                                 class="w-full h-auto"
+                                 src="./../assets/images/category/nokia.png">
+                        </div>
+                    </a>
+
+                    <!-- asus brand -->
+                    <a class="swiper-slide rounded-xl bg-white shadow-md !h-36 flex justify-center items-center"
+                       href="#">
+                        <div class="w-[120px] p-3">
+                            <img alt="asus"
+                                 class="w-full h-auto"
+                                 src="./../assets/images/category/asus.png">
+                        </div>
+                    </a>
+
+                    <!-- lenovo brand -->
+                    <a class="swiper-slide rounded-xl bg-white shadow-md !h-36 flex justify-center items-center"
+                       href="#">
+                        <div class="w-[120px] p-3">
+                            <img alt="lenovo"
+                                 class="w-full h-auto"
+                                 src="./../assets/images/category/lenovo.png">
+                        </div>
+                    </a>
                 </div>
-                <div class="swiper-blog"></div>
+            </div>
+        </article>
+
+        <!-- laptop -->
+        <article class="overflow-hidden px-4 rounded-xl mt-3">
+            <h2 class="text-lg font-bold text-slate-800"> لپ تاپ </h2>
+            <div class="blogSwiper mySiwper rounded-xl mt-10 py-3">
+                <div class="swiper-wrapper ">
+                    <!-- apple brand -->
+                    <a class="swiper-slide rounded-xl bg-white shadow-md !h-36 flex justify-center items-center"
+                       href="#">
+                        <div class="w-[120px] p-3">
+                            <img alt="apple"
+                                 class="w-full h-auto"
+                                 src="./../assets/images/category/apple.png">
+                        </div>
+                    </a>
+
+                    <!-- samsung brand -->
+                    <a class="swiper-slide rounded-xl bg-white shadow-md !h-36 flex justify-center items-center"
+                       href="#">
+                        <div class="w-[120px] p-3">
+                            <img alt="samsung"
+                                 class="w-full h-auto"
+                                 src="./../assets/images/category/samsung.png">
+                        </div>
+                    </a>
+
+                    <!-- xiaomi brand -->
+                    <a class="swiper-slide rounded-xl bg-white shadow-md !h-36 flex justify-center items-center"
+                       href="#">
+                        <div class="w-[120px] p-3">
+                            <img alt="xiaomi"
+                                 class="w-full h-auto"
+                                 src="./../assets/images/category/xiaomi.png">
+                        </div>
+                    </a>
+
+                    <!-- nokia brand -->
+                    <a class="swiper-slide rounded-xl bg-white shadow-md !h-36 flex justify-center items-center"
+                       href="#">
+                        <div class="w-[120px] p-3">
+                            <img alt="nokia"
+                                 class="w-full h-auto"
+                                 src="./../assets/images/category/nokia.png">
+                        </div>
+                    </a>
+
+                    <!-- asus brand -->
+                    <a class="swiper-slide rounded-xl bg-white shadow-md !h-36 flex justify-center items-center"
+                       href="#">
+                        <div class="w-[120px] p-3">
+                            <img alt="asus"
+                                 class="w-full h-auto"
+                                 src="./../assets/images/category/asus.png">
+                        </div>
+                    </a>
+
+                    <!-- lenovo brand -->
+                    <a class="swiper-slide rounded-xl bg-white shadow-md !h-36 flex justify-center items-center"
+                       href="#">
+                        <div class="w-[120px] p-3">
+                            <img alt="lenovo"
+                                 class="w-full h-auto"
+                                 src="./../assets/images/category/lenovo.png">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </article>
+
+        <!--  smart watch -->
+        <article class="overflow-hidden px-4 rounded-xl mt-3">
+            <h2 class="text-lg font-bold text-slate-800"> ساعت هوشمند </h2>
+            <div class="blogSwiper mySiwper rounded-xl mt-10 py-3">
+                <div class="swiper-wrapper ">
+                    <!-- apple brand -->
+                    <a href="#" class="swiper-slide rounded-xl bg-white shadow-md !h-36 flex justify-center items-center">
+                        <div class="w-[120px] p-3">
+                            <img src="./../assets/images/category/apple.png" alt="apple" class="w-full h-auto">
+                        </div>
+                    </a>
+
+                    <!-- samsung brand -->
+                    <a href="#" class="swiper-slide rounded-xl bg-white shadow-md !h-36 flex justify-center items-center">
+                        <div class="w-[120px] p-3">
+                            <img src="./../assets/images/category/samsung.png" alt="samsung" class="w-full h-auto">
+                        </div>
+                    </a>
+
+                    <!-- xiaomi brand -->
+                    <a href="#" class="swiper-slide rounded-xl bg-white shadow-md !h-36 flex justify-center items-center">
+                        <div class="w-[120px] p-3">
+                            <img src="./../assets/images/category/xiaomi.png" alt="xiaomi" class="w-full h-auto">
+                        </div>
+                    </a>
+
+                    <!-- nokia brand -->
+                    <a href="#" class="swiper-slide rounded-xl bg-white shadow-md !h-36 flex justify-center items-center">
+                        <div class="w-[120px] p-3">
+                            <img src="./../assets/images/category/nokia.png" alt="nokia" class="w-full h-auto">
+                        </div>
+                    </a>
+
+                    <!-- asus brand -->
+                    <a href="#" class="swiper-slide rounded-xl bg-white shadow-md !h-36 flex justify-center items-center">
+                        <div class="w-[120px] p-3">
+                            <img src="./../assets/images/category/asus.png" alt="asus" class="w-full h-auto">
+                        </div>
+                    </a>
+
+                    <!-- lenovo brand -->
+                    <a href="#" class="swiper-slide rounded-xl bg-white shadow-md !h-36 flex justify-center items-center">
+                        <div class="w-[120px] p-3">
+                            <img src="./../assets/images/category/lenovo.png" alt="lenovo" class="w-full h-auto">
+                        </div>
+                    </a>
+                </div>
             </div>
         </article>
     </section>
 </main>
 <!--footer-->
 <footer class="bg-white px-4 border border-t-slate-200 rounded-rt-xl rounded-rl-xl">
-    <article class="container py-6 px-4 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-8 justify-center items-start">
+    <article
+            class="container py-6 px-4 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-8 justify-center items-start">
         <div>
             <div class="flex items-center gap-12">
                 <a href="#">

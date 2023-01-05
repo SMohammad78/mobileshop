@@ -744,6 +744,12 @@ select{
 .h-4{
   height: 1rem;
 }
+.h-36{
+  height: 9rem;
+}
+.\!h-36{
+  height: 9rem !important;
+}
 .w-full{
   width: 100%;
 }
@@ -791,6 +797,9 @@ select{
 }
 .w-4{
   width: 1rem;
+}
+.w-\[120px\]{
+  width: 120px;
 }
 .max-w-\[80px\]{
   max-width: 80px;
@@ -1118,6 +1127,9 @@ select{
 }
 .p-6{
   padding: 1.5rem;
+}
+.p-5{
+  padding: 1.25rem;
 }
 .px-4{
   padding-left: 1rem;
