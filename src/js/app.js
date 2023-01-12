@@ -1,13 +1,5 @@
 const productsBody = document.querySelector("#products-row");
 
-import { ProductsMobile } from "./db_mobile.js";
-
-// get products from api
-class Products {
-    getProducts() {
-        return ProductsMobile;
-    }
-}
 
 class UI {
     displayProducts(products) {
@@ -73,12 +65,8 @@ class UI {
 class Storage { }
 
 document.addEventListener("DOMContentLoaded", () => {
-    // eccho class Products
-    const products = new Products();
-    const productsData = products.getProducts()
-
     // eccho class UI
     const ui = new UI()
-    ui.displayProducts(productsData)
+    ui.displayProducts(products)
 
 })

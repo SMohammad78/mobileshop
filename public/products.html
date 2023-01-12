@@ -567,7 +567,15 @@
         </nav>
     </header>
     <script defer src="//unpkg.com/alpinejs"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script >
+        let products = []
+        axios.get('http://localhost:8080/public/db/products.json').then(function (response){
+            products = response.data.items
+        }).catch(function (error){
+            console.log(error)
+        })
+    </script>
     <script src="./../src/js/app.js" type="module"></script>
 </body>
 
