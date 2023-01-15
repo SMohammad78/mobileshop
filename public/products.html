@@ -6,7 +6,7 @@
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>Digitize</title>
-    <link href="./build/tailwind.css" rel="stylesheet">
+    <link href="/assets/css/app.css" rel="stylesheet">
 </head>
 
 <body class="bg-gray-100">
@@ -180,6 +180,8 @@
                                 stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                                 stroke-width="1.5" />
                         </svg>
+
+                        <!-- <img src="/assets/images/svg/bag.svg" alt="" width="41px" height="41px"> -->
                     </a>
                 </div>
             </div>
@@ -213,7 +215,6 @@
         </article>
     </section>
     <!-- section products -->
-
     <main class="container p-4 grid grid-cols-12 md:grid-rows-[55px_minmax(500,_1fr)] md:gap-8">
         <!-- aside -->
         <section class="hidden md:flex flex-col rounded-xl col-span-4 lg:col-span-3 row-span-4">
@@ -462,58 +463,8 @@
         <!--products  -->
         <section class="col-span-12 md:col-span-8 lg:col-span-9">
             <!-- row products -->
-            <article id="products-row" class="container grid gap-4 grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4">
-                <!-- single product -->
-                <!-- <div class="bg-white rounded-xl p-3 shadow-sm shadow-blue-100">
-                    <div class="relative rounded-xl bg-gray-100">
-                        <img alt="apple" src="../assets/images/products/1.png">
-                        <span class="absolute p-2 bg-slate-300 top-4 right-3 rounded-full cursor-pointer"><svg
-                                class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M11.645 20.91l-.007-.003-.022-.012a15.247 15.247 0 01-.383-.218 25.18 25.18 0 01-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0112 5.052 5.5 5.5 0 0116.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 01-4.244 3.17 15.247 15.247 0 01-.383.219l-.022.012-.007.004-.003.001a.752.752 0 01-.704 0l-.003-.001z" />
-                            </svg>
-                        </span>
-                    </div>
-
-                    <div class="flex justify-between items-center pt-4">
-                        <h3 class="text-slate-400 text-xs lg:text-sm font-medium"></h3>
-                        <div class="flex items-center">
-                            <div
-                                class="w-6 h-6 flex justify-center items-center rounded-full cursor-pointer bg-blue-500 transition-all border-2 border-white -mr-1">
-                                <svg class="w-4 h-4 stroke-white" fill="none" stroke="currentColor" stroke-width="1.5"
-                                    viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M4.5 12.75l6 6 9-13.5" stroke-linecap="round" stroke-linejoin="round" />
-                                </svg>
-                            </div>
-                            <div
-                                class="w-6 h-6 flex justify-center items-center rounded-full cursor-pointer bg-gray-500 transition-all border-2 border-white -mr-1">
-                                <svg class="w-4 h-4 stroke-white" fill="none" stroke="currentColor" stroke-width="1.5"
-                                    viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M4.5 12.75l6 6 9-13.5" stroke-linecap="round" stroke-linejoin="round" />
-                                </svg>
-                            </div>
-                            <div @click="color= 'gold'"
-                                class="w-6 h-6 flex justify-center items-center rounded-full cursor-pointer bg-yellow-500 transition-all border-2 border-white -mr-1">
-                                <svg class="w-4 h-4 stroke-white" fill="none" stroke="currentColor" stroke-width="1.5"
-                                    viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M4.5 12.75l6 6 9-13.5" stroke-linecap="round" stroke-linejoin="round" />
-                                </svg>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="py-5 text-slate-800">
-                        <h4 class="text-sm"></h4>
-                        <h5 class="text-left pt-3 text-orange-600 font-semibold text-sm lg:text-base"> تومان</h5>
-                    </div>
-
-                    <div
-                        class="flex justify-center items-center border-t-slate-300 border border-b-0 border-r-0 border-l-0 pt-2">
-                        <a class="text-center text-orange-600 text-xs lg:text-base font-semibold" href="#">مشاهده و
-                            سفارش</a>
-                    </div>
-                </div> -->
+            <article id="products-row"
+                class="container grid gap-4 grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4">
             </article>
         </section>
     </main>
@@ -537,7 +488,7 @@
                         <svg fill="currentColor" height="34" width="34" xmlns="http://www.w3.org/2000/svg">
                             <g>
                                 <path
-                                    d="M10.257 2.833H7.565c-3.102 0-4.732 1.63-4.732 4.718v2.692c0 3.088 1.63 4.717 4.718 4.717h2.692c3.088 0 4.717-1.629 4.717-4.717V7.55c.014-3.088-1.615-4.718-4.703-4.718ZM26.45 2.833h-2.692c-3.089 0-4.718 1.63-4.718 4.718v2.692c0 3.088 1.63 4.717 4.718 4.717h2.691c3.088 0 4.718-1.629 4.718-4.717V7.55c0-3.088-1.63-4.718-4.718-4.718ZM26.45 19.026h-2.692c-3.089 0-4.718 1.629-4.718 4.717v2.692c0 3.088 1.63 4.718 4.718 4.718h2.691c3.088 0 4.718-1.63 4.718-4.718v-2.692c0-3.088-1.63-4.717-4.718-4.717ZM10.257 19.026H7.565c-3.102 0-4.732 1.629-4.732 4.717v2.692c0 3.103 1.63 4.732 4.718 4.732h2.692c3.088 0 4.717-1.63 4.717-4.718v-2.692c.014-3.102-1.615-4.731-4.703-4.731Z" />
+                                    d="M10.257 2.833H7.565c-3.102 0-4.732 1.63-4.732 4.718v2.692c0 3.088 1.63 4.717 4.718 4.717h2.692c3.088 0 4.717-1.629 4.717-4.717V7.55c.~014-3.088-1.615-4.718-4.703-4.718ZM26.45 2.833h-2.692c-3.089 0-4.718 1.63-4.718 4.718v2.692c0 3.088 1.63 4.717 4.718 4.717h2.691c3.088 0 4.718-1.629 4.718-4.717V7.55c0-3.088-1.63-4.718-4.718-4.718ZM26.45 19.026h-2.692c-3.089 0-4.718 1.629-4.718 4.717v2.692c0 3.088 1.63 4.718 4.718 4.718h2.691c3.088 0 4.718-1.63 4.718-4.718v-2.692c0-3.088-1.63-4.717-4.718-4.717ZM10.257 19.026H7.565c-3.102 0-4.732 1.629-4.732 4.717v2.692c0 3.103 1.63 4.732 4.718 4.732h2.692c3.088 0 4.717-1.63 4.717-4.718v-2.692c.014-3.102-1.615-4.731-4.703-4.731Z" />
                             </g>
                         </svg>
 
@@ -567,16 +518,26 @@
         </nav>
     </header>
     <script defer src="//unpkg.com/alpinejs"></script>
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-    <script >
-        let products = []
-        axios.get('http://localhost:8080/public/db/products.json').then(function (response){
-            products = response.data.items
-        }).catch(function (error){
-            console.log(error)
+    <script src="/assets/js/app.js" type="module"></script>
+
+    <script>
+
+        document.addEventListener("DOMContentLoaded", () => {
+            let products = []
+            axios.get('/db/products.json').then(function (response) {
+                products = response.data.items
+                // eccho class UI
+                const ui = new UI()
+                ui.displayProducts(products)
+
+                // eccho class Storage
+                let storage = new Storage()
+                storage.saveProducts(products)
+            }).catch(function (error) {
+                console.log(error)
+            })
         })
     </script>
-    <script src="./../src/js/app.js" type="module"></script>
 </body>
 
 </html>

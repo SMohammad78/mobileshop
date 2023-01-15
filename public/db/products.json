@@ -10,7 +10,8 @@
         "blue",
         "gold"
       ],
-      "imgURL": "./../assets/images/products/1.png"
+      "imgURL": "/assets/images/products/1.png",
+      "pageUrl": "/single_products.html"
     },
     {
       "id": 2,
@@ -22,7 +23,8 @@
         "blue",
         "gold"
       ],
-      "imgURL": "./../assets/images/products/1.png"
+      "imgURL": "/assets/images/products/1.png",
+      "pageUrl": "/single_products.html"
     },
     {
       "id": 3,
@@ -34,7 +36,8 @@
         "blue",
         "gold"
       ],
-      "imgURL": "./../assets/images/products/1.png"
+      "imgURL": "/assets/images/products/1.png",
+      "pageUrl": "/single_products.html"
     },
     {
       "id": 4,
@@ -46,7 +49,8 @@
         "blue",
         "white"
       ],
-      "imgURL": "./../assets/images/products/1.png"
+      "imgURL": "/assets/images/products/1.png",
+      "pageUrl": "/single_products.html"
     },
     {
       "id": 5,
@@ -58,7 +62,8 @@
         "blue",
         "white"
       ],
-      "imgURL": "./../assets/images/products/1.png"
+      "imgURL": "/assets/images/products/1.png",
+      "pageUrl": "/single_products.html"
     },
     {
       "id": 6,
@@ -71,7 +76,8 @@
         "white",
         "pink"
       ],
-      "imgURL": "./../assets/images/products/1.png"
+      "imgURL": "/assets/images/products/1.png",
+      "pageUrl": "/single_products.html"
     },
     {
       "id": 7,
@@ -84,7 +90,8 @@
         "white",
         "pink"
       ],
-      "imgURL": "./../assets/images/products/1.png"
+      "imgURL": "/assets/images/products/1.png",
+      "pageUrl": "/single_products.html"
     },
     {
       "id": 8,
@@ -97,7 +104,8 @@
         "white",
         "pink"
       ],
-      "imgURL": "./../assets/images/products/1.png"
+      "imgURL": "/assets/images/products/1.png",
+      "pageUrl": "/single_products.html"
     },
     {
       "id": 9,
@@ -110,7 +118,8 @@
         "white",
         "pink"
       ],
-      "imgURL": "./../assets/images/products/1.png"
+      "imgURL": "/assets/images/products/1.png",
+      "pageUrl": "/single_products.html"
     },
     {
       "id": 10,
@@ -122,7 +131,8 @@
         "blue",
         "white"
       ],
-      "imgURL": "./../assets/images/products/1.png"
+      "imgURL": "/assets/images/products/1.png",
+      "pageUrl": "/single_products.html"
     },
     {
       "id": 11,
@@ -134,7 +144,8 @@
         "blue",
         "white"
       ],
-      "imgURL": "./../assets/images/products/1.png"
+      "imgURL": "/assets/images/products/1.png",
+      "pageUrl": "/single_products.html"
     },
     {
       "id": 12,
@@ -146,7 +157,8 @@
         "blue",
         "white"
       ],
-      "imgURL": "./../assets/images/products/1.png"
+      "imgURL": "/assets/images/products/1.png",
+      "pageUrl": "/single_products.html"
     },
     {
       "id": 13,
@@ -158,7 +170,8 @@
         "blue",
         "white"
       ],
-      "imgURL": "./../assets/images/products/1.png"
+      "imgURL": "/assets/images/products/1.png",
+      "pageUrl": "/single_products.html"
     },
     {
       "id": 14,
@@ -170,7 +183,8 @@
         "blue",
         "white"
       ],
-      "imgURL": "./../assets/images/products/1.png"
+      "imgURL": "/assets/images/products/1.png",
+      "pageUrl": "/single_products.html"
     },
     {
       "id": 15,
@@ -182,7 +196,8 @@
         "blue",
         "white"
       ],
-      "imgURL": "./../assets/images/products/1.png"
+      "imgURL": "/assets/images/products/1.png",
+      "pageUrl": "/single_products.html"
     },
     {
       "id": 16,
@@ -194,7 +209,8 @@
         "blue",
         "white"
       ],
-      "imgURL": "./../assets/images/products/1.png"
+      "imgURL": "/assets/images/products/1.png",
+      "pageUrl": "/single_products.html"
     },
     {
       "id": 17,
@@ -206,7 +222,8 @@
         "blue",
         "white"
       ],
-      "imgURL": "./../assets/images/products/1.png"
+      "imgURL": "/assets/images/products/1.png",
+      "pageUrl": "/single_products.html"
     },
     {
       "id": 18,
@@ -218,7 +235,8 @@
         "blue",
         "white"
       ],
-      "imgURL": "./../assets/images/products/1.png"
+      "imgURL": "/assets/images/products/1.png",
+      "pageUrl": "/single_products.html"
     },
     {
       "id": 19,
@@ -231,7 +249,8 @@
         "blue",
         "white"
       ],
-      "imgURL": "./../assets/images/products/1.png"
+      "imgURL": "/assets/images/products/1.png",
+      "pageUrl": "/single_products.html"
     },
     {
       "id": 20,
@@ -244,7 +263,8 @@
         "blue",
         "white"
       ],
-      "imgURL": "./../assets/images/products/1.png"
+      "imgURL": "/assets/images/products/1.png",
+      "pageUrl": "/single_products.html"
     },
     {
       "id": 21,
@@ -257,7 +277,8 @@
         "blue",
         "white"
       ],
-      "imgURL": "./../assets/images/products/1.png"
+      "imgURL": "/assets/images/products/1.png",
+      "pageUrl": "/single_products.html"
     },
     {
       "id": 22,
@@ -270,7 +291,8 @@
         "blue",
         "white"
       ],
-      "imgURL": "./../assets/images/products/1.png"
+      "imgURL": "/assets/images/products/1.png",
+      "pageUrl": "/single_products.html"
     },
     {
       "id": 23,
@@ -283,7 +305,8 @@
         "blue",
         "white"
       ],
-      "imgURL": "./../assets/images/products/1.png"
+      "imgURL": "/assets/images/products/1.png",
+      "pageUrl": "/single_products.html"
     },
     {
       "id": 24,
@@ -296,7 +319,8 @@
         "blue",
         "white"
       ],
-      "imgURL": "./../assets/images/products/1.png"
+      "imgURL": "/assets/images/products/1.png",
+      "pageUrl": "/single_products.html"
     },
     {
       "id": 25,
@@ -309,7 +333,8 @@
         "blue",
         "white"
       ],
-      "imgURL": "./../assets/images/products/1.png"
+      "imgURL": "/assets/images/products/1.png",
+      "pageUrl": "/single_products.html"
     },
     {
       "id": 26,
@@ -322,7 +347,8 @@
         "blue",
         "white"
       ],
-      "imgURL": "./../assets/images/products/1.png"
+      "imgURL": "/assets/images/products/1.png",
+      "pageUrl": "/single_products.html"
     },
     {
       "id": 27,
@@ -335,7 +361,8 @@
         "blue",
         "white"
       ],
-      "imgURL": "./../assets/images/products/1.png"
+      "imgURL": "/assets/images/products/1.png",
+      "pageUrl": "/single_products.html"
     },
     {
       "id": 28,
@@ -346,7 +373,8 @@
         "black",
         "gray"
       ],
-      "imgURL": "./../assets/images/products/1.png"
+      "imgURL": "/assets/images/products/1.png",
+      "pageUrl": "/single_products.html"
     },
     {
       "id": 29,
@@ -357,7 +385,8 @@
         "black",
         "gray"
       ],
-      "imgURL": "./../assets/images/products/1.png"
+      "imgURL": "/assets/images/products/1.png",
+      "pageUrl": "/single_products.html"
     },
     {
       "id": 30,
@@ -369,7 +398,8 @@
         "gray",
         "blue"
       ],
-      "imgURL": "./../assets/images/products/1.png"
+      "imgURL": "/assets/images/products/1.png",
+      "pageUrl": "/single_products.html"
     },
     {
       "id": 31,
@@ -382,7 +412,8 @@
         "blue",
         "red"
       ],
-      "imgURL": "./../assets/images/products/1.png"
+      "imgURL": "/assets/images/products/1.png",
+      "pageUrl": "/single_products.html"
     },
     {
       "id": 32,
@@ -395,7 +426,8 @@
         "blue",
         "green"
       ],
-      "imgURL": "./../assets/images/products/1.png"
+      "imgURL": "/assets/images/products/1.png",
+      "pageUrl": "/single_products.html"
     },
     {
       "id": 33,
@@ -408,7 +440,8 @@
         "blue",
         "green"
       ],
-      "imgURL": "./../assets/images/products/1.png"
+      "imgURL": "/assets/images/products/1.png",
+      "pageUrl": "/single_products.html"
     },
     {
       "id": 34,
@@ -421,7 +454,8 @@
         "blue",
         "green"
       ],
-      "imgURL": "./../assets/images/products/1.png"
+      "imgURL": "/assets/images/products/1.png",
+      "pageUrl": "/single_products.html"
     },
     {
       "id": 35,
@@ -432,7 +466,8 @@
         "gray",
         "blue"
       ],
-      "imgURL": "./../assets/images/products/1.png"
+      "imgURL": "/assets/images/products/1.png",
+      "pageUrl": "/single_products.html"
     },
     {
       "id": 36,
@@ -442,7 +477,8 @@
       "color": [
         "blue"
       ],
-      "imgURL": "./../assets/images/products/1.png"
+      "imgURL": "/assets/images/products/1.png",
+      "pageUrl": "/single_products.html"
     },
     {
       "id": 37,
@@ -457,7 +493,8 @@
         "silver",
         "gray"
       ],
-      "imgURL": "./../assets/images/products/1.png"
+      "imgURL": "/assets/images/products/1.png",
+      "pageUrl": "/single_products.html"
     },
     {
       "id": 38,
@@ -472,7 +509,8 @@
         "silver",
         "gray"
       ],
-      "imgURL": "./../assets/images/products/1.png"
+      "imgURL": "/assets/images/products/1.png",
+      "pageUrl": "/single_products.html"
     },
     {
       "id": 39,
@@ -482,7 +520,8 @@
       "color": [
         "gold"
       ],
-      "imgURL": "./../assets/images/products/1.png"
+      "imgURL": "/assets/images/products/1.png",
+      "pageUrl": "/single_products.html"
     },
     {
       "id": 40,
@@ -494,7 +533,8 @@
         "green",
         "blue"
       ],
-      "imgURL": "./../assets/images/products/1.png"
+      "imgURL": "/assets/images/products/1.png",
+      "pageUrl": "/single_products.html"
     }
   ]
 }

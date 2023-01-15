@@ -1,7 +1,9 @@
 const productsBody = document.querySelector("#products-row");
+import axios from "../../node_modules/axios";
 
+window.axios = axios
 
-class UI {
+window.UI = class UI {
     displayProducts(products) {
         let result = "";
 
@@ -62,11 +64,8 @@ class UI {
     }
 }
 
-class Storage { }
-
-document.addEventListener("DOMContentLoaded", () => {
-    // eccho class UI
-    const ui = new UI()
-    ui.displayProducts(products)
-
-})
+window.Storage = class Storage { 
+    saveProducts (products) {
+        localStorage.setItem('products', JSON.stringify(products))
+    }
+}

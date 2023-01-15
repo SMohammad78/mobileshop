@@ -1,4 +1,332 @@
-@import url('./src/css/fontiran.css');
+/**
+*
+*	Name:			IRANYekan Font
+*	Version:			3.3
+*	Author:			Moslem Ebrahimi (moslemebrahimi.com)
+*	Created on:		Sep 17, 2020
+*	Updated on:		Sep 17, 2020
+*	Website:			http://fontiran.com
+*	Copyright:		Commercial/Proprietary Software
+--------------------------------------------------------------------------------------
+فونت ایران یکان یک نرم افزار مالکیتی محسوب می شود. جهت آگاهی از قوانین استفاده از این فونت ها لطفا به وب سایت (فونت ایران دات کام) مراجعه نمایید
+--------------------------------------------------------------------------------------
+IRANYekan assets/fonts/fonts are considered a proprietary software. To gain information about the laws regarding the use of these assets/fonts/fonts, please visit www.fontiran.com 
+--------------------------------------------------------------------------------------
+This set of assets/fonts/fonts are used in this project under the license: (.....)
+--------------------------------------------------------------------------------------
+*	
+**/
+@font-face {
+	font-family: iranyekan;
+	font-style: normal;
+	font-weight: bold;
+	src: url('/assets/fonts/fonts/eot/iranyekanwebbold.eot');
+	src: url('/assets/fonts/fonts/eot/iranyekanwebbold.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('/assets/fonts/fonts/woff/iranyekanwebbold.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('/assets/fonts/fonts/woff2/iranyekanwebbold.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('/assets/fonts/fonts/ttf/iranyekanwebbold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: iranyekan;
+	font-style: normal;
+	font-weight: 100;
+	src: url('/assets/fonts/fonts/eot/iranyekanwebthin.eot');
+	src: url('/assets/fonts/fonts/eot/iranyekanwebthin.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('/assets/fonts/fonts/woff/iranyekanwebthin.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('/assets/fonts/fonts/woff2/iranyekanwebthin.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('/assets/fonts/fonts/ttf/iranyekanwebthin.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: iranyekan;
+	font-style: normal;
+	font-weight: 300;
+	src: url('/assets/fonts/fonts/eot/iranyekanweblight.eot');
+	src: url('/assets/fonts/fonts/eot/iranyekanweblight.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('/assets/fonts/fonts/woff/iranyekanweblight.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('/assets/fonts/fonts/woff2/iranyekanweblight.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('/assets/fonts/fonts/ttf/iranyekanweblight.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: iranyekan;
+	font-style: normal;
+	font-weight: normal;
+	src: url('/assets/fonts/fonts/eot/iranyekanwebregular.eot');
+	src: url('/assets/fonts/fonts/eot/iranyekanwebregular.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('/assets/fonts/fonts/woff/iranyekanwebregular.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('/assets/fonts/fonts/woff2/iranyekanwebregular.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/
+		 url('/assets/fonts/fonts/ttf/iranyekanwebregular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: iranyekan;
+	font-style: normal;
+	font-weight: 500;
+	src: url('/assets/fonts/fonts/eot/iranyekanwebmedium.eot');
+	src: url('/assets/fonts/fonts/eot/iranyekanwebmedium.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('/assets/fonts/fonts/woff/iranyekanwebmedium.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('/assets/fonts/fonts/woff2/iranyekanwebmedium.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('/assets/fonts/fonts/ttf/iranyekanwebmedium.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: iranyekan;
+	font-style: normal;
+	font-weight: 800;
+	src: url('/assets/fonts/fonts/eot/iranyekanwebextrabold.eot');
+	src: url('/assets/fonts/fonts/eot/iranyekanwebextrabold.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('/assets/fonts/fonts/woff/iranyekanwebextrabold.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('/assets/fonts/fonts/woff2/iranyekanwebextrabold.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('/assets/fonts/fonts/ttf/iranyekanwebextrabold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: iranyekan;
+	font-style: normal;
+	font-weight: 850;
+	src: url('/assets/fonts/fonts/eot/iranyekanwebblack.eot');
+	src: url('/assets/fonts/fonts/eot/iranyekanwebblack.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('/assets/fonts/fonts/woff/iranyekanwebblack.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('/assets/fonts/fonts/woff2/iranyekanwebblack.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('/assets/fonts/fonts/ttf/iranyekanwebblack.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: iranyekan;
+	font-style: normal;
+	font-weight: 900;
+	src: url('/assets/fonts/fonts/eot/iranyekanwebextrablack.eot');
+	src: url('/assets/fonts/fonts/eot/iranyekanwebextrablack.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('/assets/fonts/fonts/woff/iranyekanwebextrablack.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('/assets/fonts/fonts/woff2/iranyekanwebextrablack.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('/assets/fonts/fonts/ttf/iranyekanwebextrablack.ttf') format('truetype');
+}
+body {
+	font-family: iranyekan  !important;
+	direction: rtl;
+	background-color: #cdcdcd;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6,input, textarea {
+	font-family: iranyekan !important;
+}
+h1 {
+	font-weight: bold;
+}
+.wrapper {
+	max-width: 900px;
+	margin: 0 auto;
+}
+.ltr {
+	direction: ltr;
+}
+.text-right {
+	text-align: right;
+}
+.text-center {
+	text-align: center;
+}
+.text-left {
+	text-align: left;
+}
+.text-small {
+	font-size: 0.8em;
+}
+.text-xsmall {
+	font-size: 0.6em;
+}
+.text-large {
+	font-size: 1.2em;
+}
+.text-xlarge {
+	font-size: 1.4em;
+}
+.text-underline {
+	text-decoration:underline;
+}
+.text-thin {
+	font-weight: 100;
+}
+.text-light {
+	font-weight: 300;
+}
+.text-regular {
+	font-weight: normal;
+}
+.text-medium {
+	font-weight: 500;
+}
+.text-bold {
+	font-weight: bold;
+}
+.text-extrabold {
+	font-weight: 800;
+}
+.text-black {
+	font-weight: 850;
+}
+.text-extrablack {
+	font-weight: 900;
+}
+blockquote {
+	font-weight: 500;
+	padding: 10px;
+	border: 1px dashed #666666;
+}
+
+.mainbox {
+	width: 100%;
+	background-color: #EFEFEF;
+	display: table;
+	margin-bottom: 30px;
+	border-right: 8px solid #CCFF33;
+}
+
+.mainboxnegativ {
+	width: 100%;
+	background-color: #000000;
+	display: table;
+	margin-bottom: 30px;
+	border-right: 8px solid #CCFF33;
+	color: #F9F9F9;
+}
+
+.mainbox2 {
+	font-size: 1em;
+	width: 90%;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.mainbox3 {
+	width: 100%;
+	background-color: #DFDFDF;
+	display: table;
+	margin-bottom: 30px;
+	border-right: 8px solid #bd70ff;
+}
+
+.mainbox2negativ {
+	font-size: 1em;
+	color: #F9F9F9;
+	background-color: #000000;
+	padding-right: 20px;
+}
+
+
+.farsiparagraph {
+	font-size: 1em;
+	width: 47%;
+	float:right;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+
+.farsiparagraph_negativ {
+	font-size: 1em;
+	color: #F9F9F9;
+	background-color: #000000;
+	width: 47%;
+	float:right;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+
+
+.englishparagraph {
+	font-size: 1em;
+	width: 47%;
+	float: left;
+	direction:ltr;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+
+}
+
+.englishparagraph_negativ {
+	font-size: 1em;
+	color: #F9F9F9;
+	background-color: #000000;
+	width: 47%;
+	float: left;
+	direction:ltr;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+
+}
+.rightbox {
+	width: 60%;
+	padding-right: 20px;
+	padding-left: 5px;
+	float: right;
+	margin-left: 10px;
+	margin-bottom: 0px;
+	min-width: 0px;
+	background-color: #F7F7F7;
+
+}
+
+.titelbox {
+	width: 60%;
+	padding-right: 25px;
+	padding-left: 0px;
+	float: right;
+	margin-left: 10px;
+	margin-bottom: 0px;
+	min-width: 0px;
+	background-color: #d5d5d5;
+	color: #4B4B4B;
+}
+
+
+.lefttbox {
+	
+	padding-right: 20px;
+	padding-left: 4px;
+	float: right;
+	margin-bottom: 10px;
+	min-width: 0px;
+}
+
+.alphabet {
+	width: 35%;
+	float: left;
+	font-size: 21em;
+	text-align: center;
+	font-weight: 500;
+	color: #999999;
+}
+
+.alphabet2 {
+	width: 35%;
+	float: left;
+	direction: ltr;
+	font-size: 1.6em;
+	text-align: left;
+	font-weight: 500;
+	color: #333333;
+	margin-top: 100px;
+}
+.footer {
+	font-weight: 300;
+	font-size: 0.7em;
+	text-align: center;
+	direction: ltr;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
 /*
 ! tailwindcss v3.2.3 | MIT License | https://tailwindcss.com
 */
@@ -577,6 +905,9 @@ select{
     max-width: 1536px;
   }
 }
+.static{
+  position: static;
+}
 .fixed{
   position: fixed;
 }
@@ -681,9 +1012,6 @@ select{
 .mt-6{
   margin-top: 1.5rem;
 }
-.-mr-1{
-  margin-right: -0.25rem;
-}
 .mb-7{
   margin-bottom: 1.75rem;
 }
@@ -698,6 +1026,9 @@ select{
 }
 .mb-4{
   margin-bottom: 1rem;
+}
+.-mr-1{
+  margin-right: -0.25rem;
 }
 .block{
   display: block;
@@ -811,6 +1142,9 @@ select{
 }
 .rotate-180{
   --tw-rotate: 180deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.transform{
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 .cursor-pointer{
@@ -962,14 +1296,14 @@ select{
 .border-b-0{
   border-bottom-width: 0px;
 }
+.border-t-0{
+  border-top-width: 0px;
+}
 .border-r-0{
   border-right-width: 0px;
 }
 .border-l-0{
   border-left-width: 0px;
-}
-.border-t-0{
-  border-top-width: 0px;
 }
 .border-none{
   border-style: none;
@@ -1002,13 +1336,13 @@ select{
   --tw-border-opacity: 1;
   border-top-color: rgb(226 232 240 / var(--tw-border-opacity));
 }
-.border-t-slate-300{
-  --tw-border-opacity: 1;
-  border-top-color: rgb(203 213 225 / var(--tw-border-opacity));
-}
 .border-b-orange-500{
   --tw-border-opacity: 1;
   border-bottom-color: rgb(249 115 22 / var(--tw-border-opacity));
+}
+.border-t-slate-300{
+  --tw-border-opacity: 1;
+  border-top-color: rgb(203 213 225 / var(--tw-border-opacity));
 }
 .bg-gray-100{
   --tw-bg-opacity: 1;
@@ -1066,17 +1400,13 @@ select{
   --tw-bg-opacity: 1;
   background-color: rgb(234 88 12 / var(--tw-bg-opacity));
 }
-.bg-slate-300{
+.bg-pink-500{
   --tw-bg-opacity: 1;
-  background-color: rgb(203 213 225 / var(--tw-bg-opacity));
+  background-color: rgb(236 72 153 / var(--tw-bg-opacity));
 }
 .bg-yellow-500{
   --tw-bg-opacity: 1;
   background-color: rgb(234 179 8 / var(--tw-bg-opacity));
-}
-.bg-pink-500{
-  --tw-bg-opacity: 1;
-  background-color: rgb(236 72 153 / var(--tw-bg-opacity));
 }
 .bg-orange-400{
   --tw-bg-opacity: 1;
@@ -1089,6 +1419,10 @@ select{
 .bg-gray-300{
   --tw-bg-opacity: 1;
   background-color: rgb(209 213 219 / var(--tw-bg-opacity));
+}
+.bg-slate-300{
+  --tw-bg-opacity: 1;
+  background-color: rgb(203 213 225 / var(--tw-bg-opacity));
 }
 .stroke-slate-800{
   stroke: #1e293b;
@@ -1244,11 +1578,11 @@ select{
 .font-normal{
   font-weight: 400;
 }
-.font-semibold{
-  font-weight: 600;
-}
 .font-light{
   font-weight: 300;
+}
+.font-semibold{
+  font-weight: 600;
 }
 .leading-6{
   line-height: 1.5rem;
@@ -1341,12 +1675,12 @@ select{
   --tw-shadow-color: #e2e8f0;
   --tw-shadow: var(--tw-shadow-colored);
 }
-.shadow-blue-100{
-  --tw-shadow-color: #dbeafe;
-  --tw-shadow: var(--tw-shadow-colored);
-}
 .shadow-orange-200{
   --tw-shadow-color: #fed7aa;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+.shadow-blue-100{
+  --tw-shadow-color: #dbeafe;
   --tw-shadow: var(--tw-shadow-colored);
 }
 .outline-none{
@@ -1390,6 +1724,12 @@ select{
 }
 .ring-offset-2{
   --tw-ring-offset-width: 2px;
+}
+.filter{
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+.\!filter{
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow) !important;
 }
 .transition-all{
   transition-property: all;
