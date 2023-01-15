@@ -8,7 +8,7 @@ window.UI = class UI {
         let result = "";
 
         products.forEach((item) => {
-            result += `<div class="bg-white rounded-xl p-3 shadow-sm shadow-blue-100" data-id=${item.id}>
+            result += `<a href=${item.pageUrl} class="bg-white flex flex-col justify-between rounded-xl p-3 shadow-sm shadow-blue-100" data-id=${item.id}>
             <div class="relative rounded-xl bg-gray-100">
                 <img alt="apple" src=${item.imgURL}>
                 <span class="absolute p-2 bg-slate-300 top-4 right-3 rounded-full cursor-pointer"><svg
@@ -20,44 +20,11 @@ window.UI = class UI {
                 </span>
             </div>
 
-            <div class="flex justify-between items-center pt-4">
-                <h3 class="text-slate-400 text-xs lg:text-sm font-medium"> ${item.title} </h3>
-                <div class="flex items-center">
-                    <div
-                        class="w-6 h-6 flex justify-center items-center rounded-full cursor-pointer bg-blue-500 transition-all border-2 border-white -mr-1">
-                        <svg class="w-4 h-4 stroke-white" fill="none" stroke="currentColor" stroke-width="1.5"
-                            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M4.5 12.75l6 6 9-13.5" stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                    </div>
-                    <div
-                        class="w-6 h-6 flex justify-center items-center rounded-full cursor-pointer bg-gray-500 transition-all border-2 border-white -mr-1">
-                        <svg class="w-4 h-4 stroke-white" fill="none" stroke="currentColor" stroke-width="1.5"
-                            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M4.5 12.75l6 6 9-13.5" stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                    </div>
-                    <div @click="color= 'gold'"
-                        class="w-6 h-6 flex justify-center items-center rounded-full cursor-pointer bg-yellow-500 transition-all border-2 border-white -mr-1">
-                        <svg class="w-4 h-4 stroke-white" fill="none" stroke="currentColor" stroke-width="1.5"
-                            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M4.5 12.75l6 6 9-13.5" stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                    </div>
-                </div>
+            <div class="flex flex-col justify-between items-end pt-4">
+                <h3 class="text-slate-700 text-xs lg:text-sm font-medium"> ${item.title} </h3>
+                <h4 class="text-left pt-5 text-slate-700 font-medium text-sm lg:text-base"> تومان ${item.price} </h4>
             </div>
-
-            <div class="py-5 text-slate-800">
-                <h4 class="text-sm"></h4>
-                <h5 class="text-left pt-3 text-orange-600 font-semibold text-sm lg:text-base"> تومان ${item.price} </h5>
-            </div>
-
-            <div
-                class="flex justify-center items-center border-t-slate-300 border border-b-0 border-r-0 border-l-0 pt-2">
-                <a class="text-center text-orange-600 text-xs lg:text-base font-semibold" href="#">مشاهده و
-                    سفارش</a>
-            </div>
-        </div>`
+        </a>`
 
             productsBody.innerHTML = result
         })

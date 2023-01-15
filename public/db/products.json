@@ -10,8 +10,8 @@
         "blue",
         "gold"
       ],
-      "imgURL": "/assets/images/products/1.png",
-      "pageUrl": "/single_products.html"
+      "imgURL": "/assets/images/single_product/apple/iphone-13.jpg",
+      "pageUrl": "/single_product.html"
     },
     {
       "id": 2,
@@ -23,8 +23,8 @@
         "blue",
         "gold"
       ],
-      "imgURL": "/assets/images/products/1.png",
-      "pageUrl": "/single_products.html"
+      "imgURL": "/assets/images/single_product/apple/iphone-13Pro.jpg",
+      "pageUrl": "/single_product.html"
     },
     {
       "id": 3,
@@ -36,8 +36,8 @@
         "blue",
         "gold"
       ],
-      "imgURL": "/assets/images/products/1.png",
-      "pageUrl": "/single_products.html"
+      "imgURL": "/assets/images/single_product/apple/iphone-14.jpg",
+      "pageUrl": "/single_product.html"
     },
     {
       "id": 4,
@@ -49,8 +49,8 @@
         "blue",
         "white"
       ],
-      "imgURL": "/assets/images/products/1.png",
-      "pageUrl": "/single_products.html"
+      "imgURL": "/assets/images/single_product/samsung/s21.jpg",
+      "pageUrl": "/single_product.html"
     },
     {
       "id": 5,
@@ -62,8 +62,8 @@
         "blue",
         "white"
       ],
-      "imgURL": "/assets/images/products/1.png",
-      "pageUrl": "/single_products.html"
+      "imgURL": "/assets/images/single_product/samsung/s22-5g.jpg",
+      "pageUrl": "/single_product.html"
     },
     {
       "id": 6,
@@ -76,8 +76,8 @@
         "white",
         "pink"
       ],
-      "imgURL": "/assets/images/products/1.png",
-      "pageUrl": "/single_products.html"
+      "imgURL": "/assets/images/single_product/samsung/a73.jpg",
+      "pageUrl": "/single_product.html"
     },
     {
       "id": 7,
@@ -90,8 +90,8 @@
         "white",
         "pink"
       ],
-      "imgURL": "/assets/images/products/1.png",
-      "pageUrl": "/single_products.html"
+      "imgURL": "/assets/images/single_product/samsung/a53.jpg",
+      "pageUrl": "/single_product.html"
     },
     {
       "id": 8,
@@ -104,8 +104,8 @@
         "white",
         "pink"
       ],
-      "imgURL": "/assets/images/products/1.png",
-      "pageUrl": "/single_products.html"
+      "imgURL": "/assets/images/single_product/samsung/a33.jpg",
+      "pageUrl": "/single_product.html"
     },
     {
       "id": 9,
@@ -118,8 +118,8 @@
         "white",
         "pink"
       ],
-      "imgURL": "/assets/images/products/1.png",
-      "pageUrl": "/single_products.html"
+      "imgURL": "/assets/images/single_product/xiaomi/poco-x4.jpg",
+      "pageUrl": "/single_product.html"
     },
     {
       "id": 10,
@@ -131,8 +131,8 @@
         "blue",
         "white"
       ],
-      "imgURL": "/assets/images/products/1.png",
-      "pageUrl": "/single_products.html"
+      "imgURL": "/assets/images/single_product/xiaomi/redmi-note-11.jpg",
+      "pageUrl": "/single_product.html"
     },
     {
       "id": 11,
@@ -144,47 +144,8 @@
         "blue",
         "white"
       ],
-      "imgURL": "/assets/images/products/1.png",
-      "pageUrl": "/single_products.html"
-    },
-    {
-      "id": 12,
-      "brand": "Xiaomi",
-      "title": "Redmi Note 12 Pro 5G 128GB",
-      "price": "7,300,000",
-      "color": [
-        "gray",
-        "blue",
-        "white"
-      ],
-      "imgURL": "/assets/images/products/1.png",
-      "pageUrl": "/single_products.html"
-    },
-    {
-      "id": 13,
-      "brand": "Xiaomi",
-      "title": "Redmi Note 12 Pro 5G 128GB",
-      "price": "10,899,000",
-      "color": [
-        "gray",
-        "blue",
-        "white"
-      ],
-      "imgURL": "/assets/images/products/1.png",
-      "pageUrl": "/single_products.html"
-    },
-    {
-      "id": 14,
-      "brand": "Xiaomi",
-      "title": "Redmi 12T Pro 5G 256GB",
-      "price": "23,500,000",
-      "color": [
-        "gray",
-        "blue",
-        "white"
-      ],
-      "imgURL": "/assets/images/products/1.png",
-      "pageUrl": "/single_products.html"
+      "imgURL": "/assets/images/single_product/xiaomi/redmi-note-11-pro.jpg",
+      "pageUrl": "/single_product.html"
     },
     {
       "id": 15,
@@ -196,8 +157,8 @@
         "blue",
         "white"
       ],
-      "imgURL": "/assets/images/products/1.png",
-      "pageUrl": "/single_products.html"
+      "imgURL": "/assets/images/single_product/xiaomi/redmi-note-11t-pro.jpg",
+      "pageUrl": "/single_product.html"
     },
     {
       "id": 16,
@@ -209,21 +170,21 @@
         "blue",
         "white"
       ],
-      "imgURL": "/assets/images/products/1.png",
-      "pageUrl": "/single_products.html"
+      "imgURL": "/assets/images/single_product/xiaomi/poco-f4.jpg",
+      "pageUrl": "/single_product.html"
     },
     {
       "id": 17,
       "brand": "Xiaomi",
-      "title": "Poco x4 5G 6GB 256GB",
+      "title": "Poco F4 GT 5G 6GB 256GB",
       "price": "10,699,000",
       "color": [
         "gray",
         "blue",
         "white"
       ],
-      "imgURL": "/assets/images/products/1.png",
-      "pageUrl": "/single_products.html"
+      "imgURL": "/assets/images/single_product/xiaomi/f4-gt.jpg",
+      "pageUrl": "/single_product.html"
     },
     {
       "id": 18,
@@ -235,8 +196,8 @@
         "blue",
         "white"
       ],
-      "imgURL": "/assets/images/products/1.png",
-      "pageUrl": "/single_products.html"
+      "imgURL": "/assets/images/single_product/xiaomi/redmi-note-11se.jpg",
+      "pageUrl": "/single_product.html"
     },
     {
       "id": 19,
@@ -249,8 +210,8 @@
         "blue",
         "white"
       ],
-      "imgURL": "/assets/images/products/1.png",
-      "pageUrl": "/single_products.html"
+      "imgURL": "/assets/images/single_product/xiaomi/k50.jpg",
+      "pageUrl": "/single_product.html"
     },
     {
       "id": 20,
@@ -263,8 +224,8 @@
         "blue",
         "white"
       ],
-      "imgURL": "/assets/images/products/1.png",
-      "pageUrl": "/single_products.html"
+      "imgURL": "/assets/images/single_product/xiaomi/blackshark-50.jpg",
+      "pageUrl": "/single_product.html"
     },
     {
       "id": 21,
@@ -277,8 +238,8 @@
         "blue",
         "white"
       ],
-      "imgURL": "/assets/images/products/1.png",
-      "pageUrl": "/single_products.html"
+      "imgURL": "/assets/images/single_product/huawei/nova-9se.jpg",
+      "pageUrl": "/single_product.html"
     },
     {
       "id": 22,
@@ -291,8 +252,8 @@
         "blue",
         "white"
       ],
-      "imgURL": "/assets/images/products/1.png",
-      "pageUrl": "/single_products.html"
+      "imgURL": "/assets/images/single_product/huawei/nova-9.jpg",
+      "pageUrl": "/single_product.html"
     },
     {
       "id": 23,
@@ -305,8 +266,8 @@
         "blue",
         "white"
       ],
-      "imgURL": "/assets/images/products/1.png",
-      "pageUrl": "/single_products.html"
+      "imgURL": "/assets/images/single_product/huawei/nova-8.jpg",
+      "pageUrl": "/single_product.html"
     },
     {
       "id": 24,
@@ -319,8 +280,8 @@
         "blue",
         "white"
       ],
-      "imgURL": "/assets/images/products/1.png",
-      "pageUrl": "/single_products.html"
+      "imgURL": "/assets/images/single_product/huawei/nova-8i.jpg",
+      "pageUrl": "/single_product.html"
     },
     {
       "id": 25,
@@ -333,8 +294,8 @@
         "blue",
         "white"
       ],
-      "imgURL": "/assets/images/products/1.png",
-      "pageUrl": "/single_products.html"
+      "imgURL": "/assets/images/single_product/huawei/y9a.jpg",
+      "pageUrl": "/single_product.html"
     },
     {
       "id": 26,
@@ -347,8 +308,8 @@
         "blue",
         "white"
       ],
-      "imgURL": "/assets/images/products/1.png",
-      "pageUrl": "/single_products.html"
+      "imgURL": "/assets/images/single_product/huawei/p50-pocket-premiume.jpg",
+      "pageUrl": "/single_product.html"
     },
     {
       "id": 27,
@@ -361,8 +322,8 @@
         "blue",
         "white"
       ],
-      "imgURL": "/assets/images/products/1.png",
-      "pageUrl": "/single_products.html"
+      "imgURL": "/assets/images/single_product/huawei/mate-30.jpg",
+      "pageUrl": "/single_product.html"
     },
     {
       "id": 28,
@@ -373,8 +334,8 @@
         "black",
         "gray"
       ],
-      "imgURL": "/assets/images/products/1.png",
-      "pageUrl": "/single_products.html"
+      "imgURL": "/assets/images/single_product/nokia/nokia-105.jpg",
+      "pageUrl": "/single_product.html"
     },
     {
       "id": 29,
@@ -385,8 +346,8 @@
         "black",
         "gray"
       ],
-      "imgURL": "/assets/images/products/1.png",
-      "pageUrl": "/single_products.html"
+      "imgURL": "/assets/images/single_product/nokia/nokia-106-2018.jpg",
+      "pageUrl": "/single_product.html"
     },
     {
       "id": 30,
@@ -398,8 +359,8 @@
         "gray",
         "blue"
       ],
-      "imgURL": "/assets/images/products/1.png",
-      "pageUrl": "/single_products.html"
+      "imgURL": "/assets/images/single_product/nokia/nokia-c1.jpg",
+      "pageUrl": "/single_product.html"
     },
     {
       "id": 31,
@@ -412,8 +373,8 @@
         "blue",
         "red"
       ],
-      "imgURL": "/assets/images/products/1.png",
-      "pageUrl": "/single_products.html"
+      "imgURL": "/assets/images/single_product/nokia/nokia-5710.jpg",
+      "pageUrl": "/single_product.html"
     },
     {
       "id": 32,
@@ -426,8 +387,8 @@
         "blue",
         "green"
       ],
-      "imgURL": "/assets/images/products/1.png",
-      "pageUrl": "/single_products.html"
+      "imgURL": "/assets/images/single_product/nokia/nokia-g21.jpg",
+      "pageUrl": "/single_product.html"
     },
     {
       "id": 33,
@@ -440,8 +401,8 @@
         "blue",
         "green"
       ],
-      "imgURL": "/assets/images/products/1.png",
-      "pageUrl": "/single_products.html"
+      "imgURL": "/assets/images/single_product/nokia/nokia-c31.jpg",
+      "pageUrl": "/single_product.html"
     },
     {
       "id": 34,
@@ -454,8 +415,8 @@
         "blue",
         "green"
       ],
-      "imgURL": "/assets/images/products/1.png",
-      "pageUrl": "/single_products.html"
+      "imgURL": "/assets/images/single_product/nokia/nokia-g20.jpg",
+      "pageUrl": "/single_product.html"
     },
     {
       "id": 35,
@@ -466,75 +427,8 @@
         "gray",
         "blue"
       ],
-      "imgURL": "/assets/images/products/1.png",
-      "pageUrl": "/single_products.html"
-    },
-    {
-      "id": 36,
-      "brand": "Nokia",
-      "title": "Nokia X20 5G 8GB 128GB",
-      "price": "7,999,000",
-      "color": [
-        "blue"
-      ],
-      "imgURL": "/assets/images/products/1.png",
-      "pageUrl": "/single_products.html"
-    },
-    {
-      "id": 37,
-      "brand": "Apple",
-      "title": "Iphone 13 CH 6GB 128GB",
-      "price": "35,700,000",
-      "color": [
-        "blue",
-        "pink",
-        "black",
-        "red",
-        "silver",
-        "gray"
-      ],
-      "imgURL": "/assets/images/products/1.png",
-      "pageUrl": "/single_products.html"
-    },
-    {
-      "id": 38,
-      "brand": "Apple",
-      "title": "Iphone 12 5G 4GB 128GB",
-      "price": "35,700,000",
-      "color": [
-        "blue",
-        "pink",
-        "black",
-        "red",
-        "silver",
-        "gray"
-      ],
-      "imgURL": "/assets/images/products/1.png",
-      "pageUrl": "/single_products.html"
-    },
-    {
-      "id": 39,
-      "brand": "Apple",
-      "title": "Iphone iPhone 13 Pro A2639 128GB",
-      "price": "72,890,000",
-      "color": [
-        "gold"
-      ],
-      "imgURL": "/assets/images/products/1.png",
-      "pageUrl": "/single_products.html"
-    },
-    {
-      "id": 40,
-      "brand": "Huawei",
-      "title": "Huawei Y9 Prime 2019 STK-L21 4GB 128GB",
-      "price": "6,899,000",
-      "color": [
-        "black",
-        "green",
-        "blue"
-      ],
-      "imgURL": "/assets/images/products/1.png",
-      "pageUrl": "/single_products.html"
+      "imgURL": "/assets/images/single_product/nokia/nokia-g11.jpg",
+      "pageUrl": "/single_product.html"
     }
   ]
 }
