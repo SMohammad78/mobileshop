@@ -523,7 +523,7 @@
     <script>
         document.addEventListener("DOMContentLoaded", () => {
             let products = [];
-            axios.get('db/products.json')
+            axios.get('/sample/api/products.php')
             .then((response) => {
                 products = response.data.items;
 
