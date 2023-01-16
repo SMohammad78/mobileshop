@@ -521,21 +521,19 @@
     <script src="/assets/js/app.js" type="module"></script>
 
     <script>
-
         document.addEventListener("DOMContentLoaded", () => {
-            let products = []
-            axios.get('/db/products.json').then(function (response) {
-                products = response.data.items
-                // eccho class UI
-                const ui = new UI()
-                ui.displayProducts(products)
+            let products = [];
+            axios.get('db/products.json')
+            .then((response) => {
+                products = response.data.items;
 
-                // eccho class Storage
+                const ui = new UI();
+                ui.displayProducts(products);
+
                 let storage = new Storage()
                 storage.saveProducts(products)
-            }).catch(function (error) {
-                console.log(error)
             })
+            .catch((error) => { console.log(error) })
         })
     </script>
 </body>

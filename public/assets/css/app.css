@@ -1012,20 +1012,20 @@ select{
 .mt-6{
   margin-top: 1.5rem;
 }
+.mb-3{
+  margin-bottom: 0.75rem;
+}
+.mb-4{
+  margin-bottom: 1rem;
+}
 .mb-7{
   margin-bottom: 1.75rem;
 }
 .mb-2{
   margin-bottom: 0.5rem;
 }
-.mb-3{
-  margin-bottom: 0.75rem;
-}
 .-ml-1{
   margin-left: -0.25rem;
-}
-.mb-4{
-  margin-bottom: 1rem;
 }
 .block{
   display: block;
@@ -1377,14 +1377,6 @@ select{
   --tw-bg-opacity: 1;
   background-color: rgb(234 88 12 / var(--tw-bg-opacity));
 }
-.bg-pink-500{
-  --tw-bg-opacity: 1;
-  background-color: rgb(236 72 153 / var(--tw-bg-opacity));
-}
-.bg-yellow-500{
-  --tw-bg-opacity: 1;
-  background-color: rgb(234 179 8 / var(--tw-bg-opacity));
-}
 .bg-orange-400{
   --tw-bg-opacity: 1;
   background-color: rgb(251 146 60 / var(--tw-bg-opacity));
@@ -1400,6 +1392,14 @@ select{
 .bg-slate-300{
   --tw-bg-opacity: 1;
   background-color: rgb(203 213 225 / var(--tw-bg-opacity));
+}
+.bg-pink-500{
+  --tw-bg-opacity: 1;
+  background-color: rgb(236 72 153 / var(--tw-bg-opacity));
+}
+.bg-yellow-500{
+  --tw-bg-opacity: 1;
+  background-color: rgb(234 179 8 / var(--tw-bg-opacity));
 }
 .stroke-slate-800{
   stroke: #1e293b;
@@ -1554,9 +1554,6 @@ select{
 }
 .font-light{
   font-weight: 300;
-}
-.font-semibold{
-  font-weight: 600;
 }
 .leading-6{
   line-height: 1.5rem;
