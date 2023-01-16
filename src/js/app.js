@@ -9,7 +9,7 @@ window.UI = class UI {
     displayProducts(products) {
         let result = "";
         products.forEach((item) => {
-            result += `<a href=${item.pageUrl} target="_blank" id="addToPage" class="bg-white flex flex-col justify-between rounded-xl p-3 shadow-sm shadow-blue-100" data-id=${item.id}>
+            result += `<a href="/single_product.html?id=${item.id}" target="_blank" id="addToPage" class="bg-white flex flex-col justify-between rounded-xl p-3 shadow-sm shadow-blue-100" data-id=${item.id}>
             <div class="relative rounded-xl bg-gray-100">
                 <img alt="apple" src=${item.imgURL}>
                 <span class="absolute p-2 bg-slate-300 top-4 right-3 rounded-full cursor-pointer"><svg

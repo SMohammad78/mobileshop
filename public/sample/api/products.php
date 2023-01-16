@@ -8,7 +8,7 @@ if (!isset($_GET['id'])) {
 
 $products = json_decode($products);
 
-if (!isset($products->items[$_GET['id']])) {
+if (!isset($products->items[$_GET['id']-1])) {
     die(json_encode([
         'ok' => false,
         'message' => 'product not found'
@@ -17,5 +17,5 @@ if (!isset($products->items[$_GET['id']])) {
 
 die(json_encode([
     'ok' => true,
-    'details' => $products->items[$_GET['id']]
+    'details' => $products->items[$_GET['id']-1]
 ]));
