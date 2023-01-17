@@ -22,226 +22,171 @@
 </head>
 
 <body class="bg-gray-100">
-<!-- Header Desktop -->
-<header class="w-full hidden md:flex sticky h-17 bg-white shadow-sm z-50">
-    <div class="container p-2 grid grid-cols-2 justify-center items-center gap-5">
-        <nav>
-            <ul class="flex justify-evenly items-center gap-4">
-                <li class=""><a href="">
-                    <svg fill="none"
-                         height="26"
-                         viewBox="0 0 99 26"
-                         width="99"
-                         xmlns="http://www.w3.org/2000/svg">
-                        <path
-                                d="M8.74402 1.40941V5.42118H4.73226V1.40941H8.74402ZM10.6852 12.9788C10.8577 12.9788 10.944 13.0651 10.944 13.2376V17.7412C10.944 17.9137 10.8577 18 10.6852 18H9.6499C9.37383 18 9.17539 17.9914 9.05461 17.9741C8.96834 19.182 8.71814 20.2086 8.30402 21.0541C7.8899 21.9169 7.22559 22.7106 6.31108 23.4353C5.41383 24.16 4.15422 24.9192 2.53226 25.7129L0.746376 21.7271C1.95422 21.0024 2.79971 20.4157 3.28285 19.9671C3.76598 19.5184 4.05932 19.0784 4.16285 18.6471C4.28363 18.2157 4.34402 17.5169 4.34402 16.5506V7.49177H9.10637V12.4094C9.10637 12.582 9.14951 12.72 9.23579 12.8235C9.33932 12.9271 9.47736 12.9788 9.6499 12.9788H10.6852ZM19.3572 12.7459C19.3572 13.6949 19.1243 14.5749 18.6584 15.3859C18.1925 16.1796 17.5627 16.818 16.769 17.3012C15.9752 17.7671 15.0952 18 14.129 18H10.6866C10.5141 18 10.4278 17.9137 10.4278 17.7412V13.2376C10.4278 13.0651 10.5141 12.9788 10.6866 12.9788H14.0772C14.2152 12.9788 14.336 12.9271 14.4396 12.8235C14.5431 12.72 14.5948 12.5906 14.5948 12.4353V6.76706H19.3572V12.7459ZM19.409 20.0706V24.0824H11.3854V20.0706H19.409ZM26.0939 18C25.1276 18 24.2476 17.7671 23.4539 17.3012C22.6602 16.818 22.0304 16.1796 21.5645 15.3859C21.0986 14.5749 20.8657 13.6949 20.8657 12.7459V0.322355H25.628V12.4353C25.628 12.6078 25.6711 12.7459 25.7574 12.8494C25.8609 12.9357 25.9904 12.9788 26.1457 12.9788H27.7245C27.897 12.9788 27.9833 13.0651 27.9833 13.2376V17.7412C27.9833 17.9137 27.897 18 27.7245 18H26.0939ZM35.7977 0.684708V4.69647H27.7742V0.684708H35.7977ZM31.0354 6.76706H35.7977V12.7459C35.7977 13.6949 35.5648 14.5749 35.0989 15.3859C34.633 16.1796 34.0032 16.818 33.2095 17.3012C32.4158 17.7671 31.5358 18 30.5695 18H27.7225C27.5499 18 27.4636 17.9137 27.4636 17.7412V13.2376C27.4636 13.0651 27.5499 12.9788 27.7225 12.9788H30.5177C30.6558 12.9788 30.7766 12.9271 30.8801 12.8235C30.9836 12.72 31.0354 12.5906 31.0354 12.4353V6.76706Z"
-                                fill="#222F5D"/>
-                        <path
-                                d="M56.7374 12.9788C56.9099 12.9788 56.9962 13.0651 56.9962 13.2376V17.7412C56.9962 17.9137 56.9099 18 56.7374 18H56.0127C56.0472 18.3106 56.0644 18.5435 56.0644 18.6988C56.0644 19.7341 55.8056 20.6918 55.288 21.5718C54.7703 22.4518 54.0715 23.142 53.1915 23.6424C52.3115 24.16 51.3452 24.4188 50.2927 24.4188H44.1844C42.9076 24.4188 41.7256 24.0996 40.6386 23.4612C39.5515 22.8227 38.6888 21.96 38.0503 20.8729C37.4119 19.7859 37.0927 18.6039 37.0927 17.3271V10.4941H41.855V17.0682C41.855 17.7067 42.0793 18.2502 42.528 18.6988C42.9939 19.1647 43.546 19.3976 44.1844 19.3976H50.3703C50.5774 19.3976 50.7499 19.3286 50.888 19.1906C51.026 19.0525 51.095 18.8886 51.095 18.6988C51.095 18.509 51.026 18.3451 50.888 18.2071C50.7499 18.069 50.5774 18 50.3703 18H44.7021V12.9788H56.7374ZM56.739 18C56.5664 18 56.4802 17.9137 56.4802 17.7412V13.2376C56.4802 13.0651 56.5664 12.9788 56.739 12.9788H62.5366C63.71 12.9788 64.7108 12.6165 65.539 11.8918L67.5837 10.08L64.6072 8.63059C64.3657 8.52706 64.1759 8.47529 64.0378 8.47529C63.7272 8.47529 63.4166 8.61333 63.1061 8.88941L60.4143 11.8659L57.1013 8.96706L59.819 5.65412C60.3712 4.99843 61.0182 4.52392 61.7602 4.23059C62.5021 3.92 63.2441 3.76471 63.9861 3.76471C64.8488 3.76471 65.6684 3.97177 66.4449 4.38588L71.9837 6.97412C72.07 7.00863 72.139 7.02588 72.1908 7.02588C72.2598 7.02588 72.3115 7.02588 72.3461 7.02588H75.5296V11.6847H72.2166V12.4094C72.2166 12.582 72.2598 12.72 72.3461 12.8235C72.4496 12.9271 72.5876 12.9788 72.7602 12.9788H75.9955C76.168 12.9788 76.2543 13.0651 76.2543 13.2376V17.7412C76.2543 17.9137 76.168 18 75.9955 18H72.7602C71.7421 18 70.9053 17.7584 70.2496 17.2753C69.6111 16.7749 69.0849 16.0502 68.6708 15.1012L68.1531 15.6188C67.2904 16.3953 66.3155 16.9906 65.2284 17.4047C64.1413 17.8016 63.0284 18 61.8896 18H56.739ZM59.9484 20.0706H63.9602V24.0824H59.9484V20.0706ZM84.6697 12.7459C84.6697 13.6949 84.4367 14.5749 83.9709 15.3859C83.505 16.1796 82.8752 16.818 82.0815 17.3012C81.2877 17.7671 80.4077 18 79.4415 18H75.9991C75.8266 18 75.7403 17.9137 75.7403 17.7412V13.2376C75.7403 13.0651 75.8266 12.9788 75.9991 12.9788H79.3897C79.5277 12.9788 79.6485 12.9271 79.752 12.8235C79.8556 12.72 79.9073 12.5906 79.9073 12.4353V6.76706H84.6697V12.7459ZM84.7215 20.0706V24.0824H76.6979V20.0706H84.7215ZM93.037 12.9788C93.4856 12.9788 93.7099 12.7976 93.7099 12.4353C93.7099 12.2973 93.6581 12.1851 93.5546 12.0988C93.4511 11.9953 93.2095 11.8141 92.8299 11.5553L87.0064 7.54353L89.724 3.60941L96.324 8.19059C97.0315 8.74275 97.5664 9.32941 97.9287 9.95059C98.2911 10.5718 98.4723 11.3482 98.4723 12.28C98.4723 13.3671 98.2048 14.3506 97.6699 15.2306C97.1523 16.0933 96.4448 16.7749 95.5476 17.2753C94.6503 17.7584 93.6754 18 92.6228 18H86.1781V12.9788H93.037Z"
-                                fill="#FF755C"/>
-                    </svg>
-                </a></li>
-                <li class=""><a
-                        class="text-slate-600 hover:text-orange-400 transition-all font-bold text-xs lg:text-sm"
-                        href="">خانه</a>
-                </li>
-                <li class="text-xs font-bold lg:text-sm">
-                    <a class="text-slate-600 hover:text-orange-400 transition-all text-xs font-bold lg:text-sm"
-                       href="">تلفن
-                        همراه</a>
-                </li>
-                <li class=""><a
-                        class="text-slate-600 hover:text-orange-400 transition-all text-xs font-bold lg:text-sm"
-                        href="">لپ
-                    تاپ</a></li>
-                <li class=""><a
-                        class="text-slate-600 hover:text-orange-400 transition-all text-xs font-bold lg:text-sm"
-                        href="">ساعت
-                    هوشمند</a></li>
-            </ul>
-        </nav>
-        <div class="flex items-center gap-5">
-            <!-- Input search -->
-            <form action=""
-                  class="w-full">
-                <label class="border-none relative"
-                       for="search">
-                    <button class="text-slate-400 absolute top-1 right-4">
-                        <svg fill="none"
-                             height="24"
-                             width="24"
-                             xmlns="http://www.w3.org/2000/svg">
-                            <path clip-rule="evenodd"
-                                  d="M11.275 2.714a8.561 8.561 0 1 1 0 17.122 8.561 8.561 0 0 1 0-17.122ZM19.899 18.488a1.411 1.411 0 1 1-.001 2.822 1.411 1.411 0 0 1 0-2.822Z"
-                                  stroke="currentColor"
-                                  stroke-linecap="round"
-                                  stroke-linejoin="round"
-                                  stroke-width="1.5"/>
-                        </svg>
-                    </button>
-                    <input class="w-full h-9 lg:h-11 bg-slate-100 outline-none focus:ring-1 transition-all ring-1 ring-white focus:ring-slate-300 lg:font-normal placeholder:text-slate-400 font-normal text-slate-800 text-sm lg:text-sm rounded-lg border-none pr-16" id="search" placeholder="جستجو" type="text">
-                </label>
-            </form>
-
-            <div class="flex items-center gap-5 text-slate-800 transition-all">
-                <!-- user icon mini manage -->
-                <div class="relative">
-                    <div x-data=" { isOpen: false } ">
-                        <a @click=" isOpen = !isOpen "
-                           class="hover:text-orange-500 flex items-center text-slate-800"
-                           href="#">
-                            <svg class=" transition-all duration-200 "
-                                 fill="none"
-                                 height="24"
-                                 width="24"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <path clip-rule="evenodd"
-                                      d="M11.845 21.662C8.152 21.662 5 21.087 5 18.787c0-2.301 3.133-4.425 6.845-4.425 3.691 0 6.844 2.103 6.844 4.404 0 2.3-3.133 2.896-6.845 2.896ZM11.837 11.174a4.386 4.386 0 1 0 0-8.774A4.388 4.388 0 0 0 7.45 6.787a4.37 4.37 0 0 0 4.356 4.387h.031Z"
-                                      stroke="currentColor"
-                                      stroke-linecap="round"
-                                      stroke-linejoin="round"
-                                      stroke-width="1.5"/>
+    <!-- Header Desktop -->
+    <header class="w-full hidden md:flex sticky h-17 bg-white shadow-md z-50 shadow-slate-200">
+        <div class="container p-2 grid grid-cols-2 justify-center items-center gap-5">
+            <nav>
+                <ul class="flex justify-evenly items-center gap-4">
+                    <li class=""><a href="index.html">
+                            <svg fill="none" height="26" viewBox="0 0 99 26" width="99"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M8.74402 1.40941V5.42118H4.73226V1.40941H8.74402ZM10.6852 12.9788C10.8577 12.9788 10.944 13.0651 10.944 13.2376V17.7412C10.944 17.9137 10.8577 18 10.6852 18H9.6499C9.37383 18 9.17539 17.9914 9.05461 17.9741C8.96834 19.182 8.71814 20.2086 8.30402 21.0541C7.8899 21.9169 7.22559 22.7106 6.31108 23.4353C5.41383 24.16 4.15422 24.9192 2.53226 25.7129L0.746376 21.7271C1.95422 21.0024 2.79971 20.4157 3.28285 19.9671C3.76598 19.5184 4.05932 19.0784 4.16285 18.6471C4.28363 18.2157 4.34402 17.5169 4.34402 16.5506V7.49177H9.10637V12.4094C9.10637 12.582 9.14951 12.72 9.23579 12.8235C9.33932 12.9271 9.47736 12.9788 9.6499 12.9788H10.6852ZM19.3572 12.7459C19.3572 13.6949 19.1243 14.5749 18.6584 15.3859C18.1925 16.1796 17.5627 16.818 16.769 17.3012C15.9752 17.7671 15.0952 18 14.129 18H10.6866C10.5141 18 10.4278 17.9137 10.4278 17.7412V13.2376C10.4278 13.0651 10.5141 12.9788 10.6866 12.9788H14.0772C14.2152 12.9788 14.336 12.9271 14.4396 12.8235C14.5431 12.72 14.5948 12.5906 14.5948 12.4353V6.76706H19.3572V12.7459ZM19.409 20.0706V24.0824H11.3854V20.0706H19.409ZM26.0939 18C25.1276 18 24.2476 17.7671 23.4539 17.3012C22.6602 16.818 22.0304 16.1796 21.5645 15.3859C21.0986 14.5749 20.8657 13.6949 20.8657 12.7459V0.322355H25.628V12.4353C25.628 12.6078 25.6711 12.7459 25.7574 12.8494C25.8609 12.9357 25.9904 12.9788 26.1457 12.9788H27.7245C27.897 12.9788 27.9833 13.0651 27.9833 13.2376V17.7412C27.9833 17.9137 27.897 18 27.7245 18H26.0939ZM35.7977 0.684708V4.69647H27.7742V0.684708H35.7977ZM31.0354 6.76706H35.7977V12.7459C35.7977 13.6949 35.5648 14.5749 35.0989 15.3859C34.633 16.1796 34.0032 16.818 33.2095 17.3012C32.4158 17.7671 31.5358 18 30.5695 18H27.7225C27.5499 18 27.4636 17.9137 27.4636 17.7412V13.2376C27.4636 13.0651 27.5499 12.9788 27.7225 12.9788H30.5177C30.6558 12.9788 30.7766 12.9271 30.8801 12.8235C30.9836 12.72 31.0354 12.5906 31.0354 12.4353V6.76706Z"
+                                    fill="#222F5D" />
+                                <path
+                                    d="M56.7374 12.9788C56.9099 12.9788 56.9962 13.0651 56.9962 13.2376V17.7412C56.9962 17.9137 56.9099 18 56.7374 18H56.0127C56.0472 18.3106 56.0644 18.5435 56.0644 18.6988C56.0644 19.7341 55.8056 20.6918 55.288 21.5718C54.7703 22.4518 54.0715 23.142 53.1915 23.6424C52.3115 24.16 51.3452 24.4188 50.2927 24.4188H44.1844C42.9076 24.4188 41.7256 24.0996 40.6386 23.4612C39.5515 22.8227 38.6888 21.96 38.0503 20.8729C37.4119 19.7859 37.0927 18.6039 37.0927 17.3271V10.4941H41.855V17.0682C41.855 17.7067 42.0793 18.2502 42.528 18.6988C42.9939 19.1647 43.546 19.3976 44.1844 19.3976H50.3703C50.5774 19.3976 50.7499 19.3286 50.888 19.1906C51.026 19.0525 51.095 18.8886 51.095 18.6988C51.095 18.509 51.026 18.3451 50.888 18.2071C50.7499 18.069 50.5774 18 50.3703 18H44.7021V12.9788H56.7374ZM56.739 18C56.5664 18 56.4802 17.9137 56.4802 17.7412V13.2376C56.4802 13.0651 56.5664 12.9788 56.739 12.9788H62.5366C63.71 12.9788 64.7108 12.6165 65.539 11.8918L67.5837 10.08L64.6072 8.63059C64.3657 8.52706 64.1759 8.47529 64.0378 8.47529C63.7272 8.47529 63.4166 8.61333 63.1061 8.88941L60.4143 11.8659L57.1013 8.96706L59.819 5.65412C60.3712 4.99843 61.0182 4.52392 61.7602 4.23059C62.5021 3.92 63.2441 3.76471 63.9861 3.76471C64.8488 3.76471 65.6684 3.97177 66.4449 4.38588L71.9837 6.97412C72.07 7.00863 72.139 7.02588 72.1908 7.02588C72.2598 7.02588 72.3115 7.02588 72.3461 7.02588H75.5296V11.6847H72.2166V12.4094C72.2166 12.582 72.2598 12.72 72.3461 12.8235C72.4496 12.9271 72.5876 12.9788 72.7602 12.9788H75.9955C76.168 12.9788 76.2543 13.0651 76.2543 13.2376V17.7412C76.2543 17.9137 76.168 18 75.9955 18H72.7602C71.7421 18 70.9053 17.7584 70.2496 17.2753C69.6111 16.7749 69.0849 16.0502 68.6708 15.1012L68.1531 15.6188C67.2904 16.3953 66.3155 16.9906 65.2284 17.4047C64.1413 17.8016 63.0284 18 61.8896 18H56.739ZM59.9484 20.0706H63.9602V24.0824H59.9484V20.0706ZM84.6697 12.7459C84.6697 13.6949 84.4367 14.5749 83.9709 15.3859C83.505 16.1796 82.8752 16.818 82.0815 17.3012C81.2877 17.7671 80.4077 18 79.4415 18H75.9991C75.8266 18 75.7403 17.9137 75.7403 17.7412V13.2376C75.7403 13.0651 75.8266 12.9788 75.9991 12.9788H79.3897C79.5277 12.9788 79.6485 12.9271 79.752 12.8235C79.8556 12.72 79.9073 12.5906 79.9073 12.4353V6.76706H84.6697V12.7459ZM84.7215 20.0706V24.0824H76.6979V20.0706H84.7215ZM93.037 12.9788C93.4856 12.9788 93.7099 12.7976 93.7099 12.4353C93.7099 12.2973 93.6581 12.1851 93.5546 12.0988C93.4511 11.9953 93.2095 11.8141 92.8299 11.5553L87.0064 7.54353L89.724 3.60941L96.324 8.19059C97.0315 8.74275 97.5664 9.32941 97.9287 9.95059C98.2911 10.5718 98.4723 11.3482 98.4723 12.28C98.4723 13.3671 98.2048 14.3506 97.6699 15.2306C97.1523 16.0933 96.4448 16.7749 95.5476 17.2753C94.6503 17.7584 93.6754 18 92.6228 18H86.1781V12.9788H93.037Z"
+                                    fill="#FF755C" />
                             </svg>
-                            <span :class=" isOpen === true ? ' rotate-180 transition-all duration-200' : '' "
-                                  class="transition-all duration-200">
-                                    <svg fill="none"
-                                         height="16"
-                                         width="16"
-                                         xmlns="http://www.w3.org/2000/svg">
+                        </a></li>
+                    <li class=""><a
+                            class="text-slate-600 hover:text-orange-400 transition-all font-bold text-xs lg:text-sm"
+                            href="index.html">خانه</a>
+                    </li>
+                    <li class="text-xs font-bold lg:text-sm"><a
+                            class="text-slate-600 hover:text-orange-400 transition-all text-xs font-bold lg:text-sm"
+                            href="products.html">تلفن
+                            همراه</a></li>
+                    <li class=""><a
+                            class="text-slate-600 hover:text-orange-400 transition-all text-xs font-bold lg:text-sm"
+                            href="">لپ
+                            تاپ</a></li>
+                    <li class=""><a
+                            class="text-slate-600 hover:text-orange-400 transition-all text-xs font-bold lg:text-sm"
+                            href="">ساعت
+                            هوشمند</a></li>
+                </ul>
+            </nav>
+            <div class="flex items-center gap-5 ">
+                <!-- Input search -->
+                <form action="" class="w-full group resultSearch">
+                    <label class="border-none relative " for="search">
+                        <button class="text-slate-400 absolute top-0 right-4">
+                            <svg fill="none" height="24" width="24" xmlns="http://www.w3.org/2000/svg">
+                                <path clip-rule="evenodd"
+                                    d="M11.275 2.714a8.561 8.561 0 1 1 0 17.122 8.561 8.561 0 0 1 0-17.122ZM19.899 18.488a1.411 1.411 0 1 1-.001 2.822 1.411 1.411 0 0 1 0-2.822Z"
+                                    stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="1.5" />
+                            </svg>
+                        </button>
+                        <input
+                            class="w-full h-9 lg:h-12 bg-slate-100 outline-none focus:ring-1 transition-all  ring-1 ring-white focus:ring-slate-300 placeholder:text-gray-300 text-slate-800 text-xs lg:text-sm rounded-lg border-none pr-12"
+                            id="searchbar" placeholder="جستجوی نام محصول،نام برند، نام مدل و..." type="text">
+                    </label>
+                </form>
+
+                <div class="flex items-center gap-5 text-slate-800 transition-all">
+                    <!-- user icon mini manage -->
+                    <div class="relative">
+                        <div x-data=" { isOpen: false } ">
+                            <a @click=" isOpen = !isOpen "
+                                class="hover:text-orange-500 flex items-center text-slate-800" href="#">
+                                <svg class=" transition-all duration-200 " fill="none" height="24" width="24"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path clip-rule="evenodd"
+                                        d="M11.845 21.662C8.152 21.662 5 21.087 5 18.787c0-2.301 3.133-4.425 6.845-4.425 3.691 0 6.844 2.103 6.844 4.404 0 2.3-3.133 2.896-6.845 2.896ZM11.837 11.174a4.386 4.386 0 1 0 0-8.774A4.388 4.388 0 0 0 7.45 6.787a4.37 4.37 0 0 0 4.356 4.387h.031Z"
+                                        stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="1.5" />
+                                </svg>
+                                <span :class=" isOpen === true ? ' rotate-180 transition-all duration-200' : '' "
+                                    class="transition-all duration-200">
+                                    <svg fill="none" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
                                         <path
-                                                d="m7.245 4.81 2.813 4.565a.29.29 0 0 1-.018.329c-.334.434-.672.821-.957 1.08 0 0-.228.222-.373.319-.197.155-.455.23-.706.23-.281 0-.547-.082-.76-.245-.038-.037-.205-.179-.342-.312-.85-.78-2.256-2.812-2.682-3.882-.069-.155-.212-.57-.22-.786 0-.208.045-.409.145-.602.136-.237.348-.422.6-.526.174-.068.698-.171.714-.171.374-.067.9-.117 1.512-.142.11-.005.217.05.274.143"
-                                                fill="currentColor"/>
+                                            d="m7.245 4.81 2.813 4.565a.29.29 0 0 1-.018.329c-.334.434-.672.821-.957 1.08 0 0-.228.222-.373.319-.197.155-.455.23-.706.23-.281 0-.547-.082-.76-.245-.038-.037-.205-.179-.342-.312-.85-.78-2.256-2.812-2.682-3.882-.069-.155-.212-.57-.22-.786 0-.208.045-.409.145-.602.136-.237.348-.422.6-.526.174-.068.698-.171.714-.171.374-.067.9-.117 1.512-.142.11-.005.217.05.274.143"
+                                            fill="currentColor" />
                                         <path
-                                                d="M8.76 5.115c-.125-.201.034-.455.274-.445.561.024 1.056.066 1.424.117.008.007.66.111.881.23.41.208.661.616.661 1.054v.036c-.007.283-.258.884-.273.884-.126.303-.34.698-.596 1.124a.306.306 0 0 1-.52.004L8.76 5.115Z"
-                                                fill="currentColor"
-                                                opacity=".4"/>
+                                            d="M8.76 5.115c-.125-.201.034-.455.274-.445.561.024 1.056.066 1.424.117.008.007.66.111.881.23.41.208.661.616.661 1.054v.036c-.007.283-.258.884-.273.884-.126.303-.34.698-.596 1.124a.306.306 0 0 1-.52.004L8.76 5.115Z"
+                                            fill="currentColor" opacity=".4" />
                                     </svg>
                                 </span>
-                        </a>
+                            </a>
 
-                        <div :class=" isOpen === true ? 'transition-all duration-200' : '' "
-                             class="flex bg-white rounded-lg shadow-sm overflow-hidden absolute top-12 -left-5 flex-col items-stretch justify-between z-10 w-64"
-                             x-show=" isOpen === true ">
-                            <div class=" hover:bg-slate-100 transition-all group">
-                                <a class="flex items-center justify-start gap-3 py-3 px-4"
-                                   href="#">
+                            <div :class=" isOpen === true ? 'transition-all duration-200' : '' "
+                                class="flex bg-white rounded-md shadow-md shadow-slate-200 overflow-hidden absolute top-12 -left-5 flex-col items-stretch justify-between z-10 w-64"
+                                x-show=" isOpen === true ">
+                                <div class=" hover:bg-slate-50 transition-all group"><a
+                                        class="flex items-center justify-start gap-3 py-3 px-4" href="#">
                                         <span
-                                                class="rounded-full transition-all bg-slate-200 p-1 group-hover:bg-orange-100 group-hover:text-orange-500">
-                                            <svg fill="none"
-                                                 height="24"
-                                                 width="24"
-                                                 xmlns="http://www.w3.org/2000/svg">
+                                            class="rounded-full transition-all bg-slate-200 p-1 group-hover:bg-orange-100 group-hover:text-orange-500">
+                                            <svg fill="none" height="24" width="24" xmlns="http://www.w3.org/2000/svg">
                                                 <path
-                                                        d="M11.997 15.175c-4.313 0-7.997.68-7.997 3.4C4 21.295 7.66 22 11.997 22c4.313 0 7.997-.68 7.997-3.4 0-2.721-3.66-3.425-7.997-3.425Z"
-                                                        fill="currentColor"/>
+                                                    d="M11.997 15.175c-4.313 0-7.997.68-7.997 3.4C4 21.295 7.66 22 11.997 22c4.313 0 7.997-.68 7.997-3.4 0-2.721-3.66-3.425-7.997-3.425Z"
+                                                    fill="currentColor" />
                                                 <path
-                                                        d="M11.997 12.584a5.273 5.273 0 0 0 5.292-5.292A5.273 5.273 0 0 0 11.997 2a5.274 5.274 0 0 0-5.292 5.292 5.274 5.274 0 0 0 5.292 5.292Z"
-                                                        fill="currentColor"
-                                                        opacity=".4"/>
+                                                    d="M11.997 12.584a5.273 5.273 0 0 0 5.292-5.292A5.273 5.273 0 0 0 11.997 2a5.274 5.274 0 0 0-5.292 5.292 5.274 5.274 0 0 0 5.292 5.292Z"
+                                                    fill="currentColor" opacity=".4" />
                                             </svg>
                                         </span>
-                                    <span class="slate-500 text-sm font-bold"> سیدمحمد میرمحمدی </span>
-                                </a>
-                            </div>
-                            <div class=" hover:bg-slate-100 transition-all group">
-                                <a class="flex items-center justify-start gap-3 py-3 px-4"
-                                   href="#">
+                                        <span class="slate-500 text-sm font-bold"> سیدمحمد میرمحمدی </span>
+                                    </a></div>
+                                <div class=" hover:bg-slate-50 transition-all group"><a
+                                        class="flex items-center justify-start gap-3 py-3 px-4" href="#">
                                         <span
-                                                class="rounded-full transition-all bg-slate-200 group-hover:bg-orange-100 p-1 group-hover:text-orange-500">
-                                            <svg fill="none"
-                                                 height="24"
-                                                 width="24"
-                                                 xmlns="http://www.w3.org/2000/svg">
+                                            class="rounded-full transition-all bg-slate-200 group-hover:bg-orange-100 p-1 group-hover:text-orange-500">
+                                            <svg fill="none" height="24" width="24" xmlns="http://www.w3.org/2000/svg">
                                                 <path clip-rule="evenodd"
-                                                      d="M21.996 8.375h-4.234c-1.97.004-3.567 1.56-3.57 3.482-.004 1.925 1.595 3.489 3.57 3.491H22v.306C22 19.014 19.964 21 16.517 21H7.484C4.036 21 2 19.014 2 15.654V8.338C2 4.978 4.036 3 7.484 3h9.03c3.446 0 5.482 1.979 5.482 5.338v.037ZM6.74 8.367H12.39a.756.756 0 0 0 .762-.75.757.757 0 0 0-.769-.742H6.74a.756.756 0 0 0-.762.744.756.756 0 0 0 .762.748Z"
-                                                      fill="currentColor"
-                                                      fill-rule="evenodd"/>
+                                                    d="M21.996 8.375h-4.234c-1.97.004-3.567 1.56-3.57 3.482-.004 1.925 1.595 3.489 3.57 3.491H22v.306C22 19.014 19.964 21 16.517 21H7.484C4.036 21 2 19.014 2 15.654V8.338C2 4.978 4.036 3 7.484 3h9.03c3.446 0 5.482 1.979 5.482 5.338v.037ZM6.74 8.367H12.39a.756.756 0 0 0 .762-.75.757.757 0 0 0-.769-.742H6.74a.756.756 0 0 0-.762.744.756.756 0 0 0 .762.748Z"
+                                                    fill="currentColor" fill-rule="evenodd" />
                                                 <path
-                                                        d="M16.037 12.297c.21.95 1.044 1.62 1.996 1.603h3.25a.726.726 0 0 0 .717-.734v-2.532a.728.728 0 0 0-.718-.734h-3.326c-1.083.003-1.958.902-1.956 2.01 0 .13.013.26.037.387Z"
-                                                        fill="currentColor"
-                                                        opacity=".4"/>
-                                                <circle cx="18"
-                                                        cy="11.9"
-                                                        fill="currentColor"
-                                                        r="1"/>
+                                                    d="M16.037 12.297c.21.95 1.044 1.62 1.996 1.603h3.25a.726.726 0 0 0 .717-.734v-2.532a.728.728 0 0 0-.718-.734h-3.326c-1.083.003-1.958.902-1.956 2.01 0 .13.013.26.037.387Z"
+                                                    fill="currentColor" opacity=".4" />
+                                                <circle cx="18" cy="11.9" fill="currentColor" r="1" />
                                             </svg>
                                         </span>
-                                    <span class="slate-500 text-sm font-bold"> سفارش ها </span>
-                                </a>
-                            </div>
-                            <div class=" hover:bg-slate-100 transition-all group">
-                                <a class="flex items-center justify-start gap-3 py-3 px-4"
-                                   href="#">
+                                        <span class="slate-500 text-sm font-bold"> سفارش ها </span>
+                                    </a></div>
+                                <div class=" hover:bg-slate-50 transition-all group"><a
+                                        class="flex items-center justify-start gap-3 py-3 px-4" href="#">
                                         <span
-                                                class="rounded-full transition-all bg-slate-200 group-hover:bg-orange-100 p-1 group-hover:text-orange-500">
-                                            <svg fill="none"
-                                                 height="24"
-                                                 width="24"
-                                                 xmlns="http://www.w3.org/2000/svg">
+                                            class="rounded-full transition-all bg-slate-200 group-hover:bg-orange-100 p-1 group-hover:text-orange-500">
+                                            <svg fill="none" height="24" width="24" xmlns="http://www.w3.org/2000/svg">
                                                 <path
-                                                        d="M16.62 22H7.38c-2.69 0-4.88-2.169-4.88-4.835v-5.33C2.5 9.17 4.69 7 7.38 7h9.24c2.69 0 4.88 2.169 4.88 4.835v5.33C21.5 19.83 19.31 22 16.62 22Z"
-                                                        fill="currentColor"
-                                                        opacity=".4"/>
+                                                    d="M16.62 22H7.38c-2.69 0-4.88-2.169-4.88-4.835v-5.33C2.5 9.17 4.69 7 7.38 7h9.24c2.69 0 4.88 2.169 4.88 4.835v5.33C21.5 19.83 19.31 22 16.62 22Z"
+                                                    fill="currentColor" opacity=".4" />
                                                 <path
-                                                        d="M15.755 10a.734.734 0 0 1-.745-.722V6.357c0-1.606-1.346-2.912-3.001-2.912-.762 0-1.561.297-2.13.843a2.847 2.847 0 0 0-.89 2.055v2.935a.734.734 0 0 1-.744.722.734.734 0 0 1-.745-.722V6.357a4.27 4.27 0 0 1 1.33-3.094C9.68 2.443 10.78 2.032 12.012 2 14.485 2 16.5 3.954 16.5 6.357v2.92a.734.734 0 0 1-.745.723Z"
-                                                        fill="currentColor"/>
+                                                    d="M15.755 10a.734.734 0 0 1-.745-.722V6.357c0-1.606-1.346-2.912-3.001-2.912-.762 0-1.561.297-2.13.843a2.847 2.847 0 0 0-.89 2.055v2.935a.734.734 0 0 1-.744.722.734.734 0 0 1-.745-.722V6.357a4.27 4.27 0 0 1 1.33-3.094C9.68 2.443 10.78 2.032 12.012 2 14.485 2 16.5 3.954 16.5 6.357v2.92a.734.734 0 0 1-.745.723Z"
+                                                    fill="currentColor" />
                                             </svg>
                                         </span>
-                                    <span class="slate-500 text-sm font-bold"> کیف پول </span>
-                                </a>
-                            </div>
-                            <div class=" hover:bg-slate-100 transition-all group">
-                                <a class="flex items-center justify-start gap-3 py-3 px-4"
-                                   href="#">
+                                        <span class="slate-500 text-sm font-bold"> کیف پول </span>
+                                    </a></div>
+                                <div class=" hover:bg-slate-50 transition-all group"><a
+                                        class="flex items-center justify-start gap-3 py-3 px-4" href="#">
                                         <span
-                                                class="rounded-full transition-all bg-slate-200 group-hover:bg-orange-100 p-1 group-hover:text-orange-500">
-                                            <svg fill="none"
-                                                 height="24"
-                                                 width="24"
-                                                 xmlns="http://www.w3.org/2000/svg">
+                                            class="rounded-full transition-all bg-slate-200 group-hover:bg-orange-100 p-1 group-hover:text-orange-500">
+                                            <svg fill="none" height="24" width="24" xmlns="http://www.w3.org/2000/svg">
                                                 <path
-                                                        d="M11.776 21.837a36.258 36.258 0 0 1-6.328-4.957 12.668 12.668 0 0 1-3.03-4.805C1.278 8.535 2.603 4.49 6.3 3.288A6.282 6.282 0 0 1 12.007 4.3a6.291 6.291 0 0 1 5.706-1.012c3.697 1.201 5.03 5.247 3.893 8.787a12.67 12.67 0 0 1-3.013 4.805 36.58 36.58 0 0 1-6.328 4.957l-.25.163-.24-.163Z"
-                                                        fill="currentColor"
-                                                        opacity=".4"/>
+                                                    d="M11.776 21.837a36.258 36.258 0 0 1-6.328-4.957 12.668 12.668 0 0 1-3.03-4.805C1.278 8.535 2.603 4.49 6.3 3.288A6.282 6.282 0 0 1 12.007 4.3a6.291 6.291 0 0 1 5.706-1.012c3.697 1.201 5.03 5.247 3.893 8.787a12.67 12.67 0 0 1-3.013 4.805 36.58 36.58 0 0 1-6.328 4.957l-.25.163-.24-.163Z"
+                                                    fill="currentColor" opacity=".4" />
                                                 <path
-                                                        d="m12.01 22-.234-.163a36.316 36.316 0 0 1-6.337-4.957 12.667 12.667 0 0 1-3.048-4.805c-1.13-3.54.195-7.586 3.892-8.787a6.296 6.296 0 0 1 5.728 1.023V22ZM18.23 10a.719.719 0 0 1-.517-.278.818.818 0 0 1-.167-.592c.022-.702-.378-1.341-.994-1.59-.391-.107-.628-.53-.53-.948.093-.41.477-.666.864-.573a.384.384 0 0 1 .138.052c1.236.476 2.036 1.755 1.973 3.155a.808.808 0 0 1-.23.56.708.708 0 0 1-.537.213Z"
-                                                        fill="currentColor"/>
+                                                    d="m12.01 22-.234-.163a36.316 36.316 0 0 1-6.337-4.957 12.667 12.667 0 0 1-3.048-4.805c-1.13-3.54.195-7.586 3.892-8.787a6.296 6.296 0 0 1 5.728 1.023V22ZM18.23 10a.719.719 0 0 1-.517-.278.818.818 0 0 1-.167-.592c.022-.702-.378-1.341-.994-1.59-.391-.107-.628-.53-.53-.948.093-.41.477-.666.864-.573a.384.384 0 0 1 .138.052c1.236.476 2.036 1.755 1.973 3.155a.808.808 0 0 1-.23.56.708.708 0 0 1-.537.213Z"
+                                                    fill="currentColor" />
                                             </svg>
                                         </span>
-                                    <span class="slate-500 text-sm font-bold"> لیست ها </span>
-                                </a>
+                                        <span class="slate-500 text-sm font-bold"> لیست ها </span>
+                                    </a></div>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- bag -->
-                <a class="hover:text-orange-500 transition-all duration-200"
-                   href="#">
-                    <svg fill="none"
-                         height="24"
-                         width="24"
-                         xmlns="http://www.w3.org/2000/svg">
-                        <path
-                                d="M5.524 7C9.414 5.744 13.972 5.456 16 5.5c2.028.044 2.883.766 3.5 2 1 2 .789 6.988-1 8.587-1.788 1.6-9.17 1.751-11.63 0-2.599-1.85-1.241-6.895-1.326-10.344C5.595 3.813 3.5 3.5 3.5 3.5M13 10.5h2.773"
-                                stroke="currentColor"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                stroke-width="1.5"/>
-                        <path clip-rule="evenodd"
-                              d="M7.264 20.127a.545.545 0 1 1-.001 1.09.545.545 0 0 1 .001-1.09ZM17.595 20.127a.545.545 0 1 1 0 1.09.545.545 0 0 1 0-1.09Z"
-                              fill="currentColor"
-                              fill-rule="evenodd"
-                              stroke="currentColor"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-width="1.5"/>
-                    </svg>
-                </a>
+                    <!-- bag -->
+                    <a class="hover:text-orange-500 transition-all duration-200" href="#">
+                        <svg fill="none" height="24" width="24" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M16.364 6.87a4.32 4.32 0 0 0-4.32-4.32 4.32 4.32 0 0 0-4.34 4.3v.02M14.973 11.374h-.046M9.142 11.374h-.046"
+                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="1.5" />
+                            <path clip-rule="evenodd"
+                                d="M12.034 21.49c-6.508 0-7.257-2.05-8.718-7.468-1.466-5.434 1.475-7.467 8.718-7.467s10.184 2.033 8.718 7.467c-1.46 5.417-2.21 7.467-8.718 7.467Z"
+                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="1.5" />
+                        </svg>
+
+                        <!-- <img src="/assets/images/svg/bag.svg" alt="" width="41px" height="41px"> -->
+                    </a>
+                </div>
             </div>
         </div>
-    </div>
-</header>
+    </header>
 
 <!-- tab bar smartphone -->
 <section class="z-50 block md:hidden shadow-[0_-4px_8px_0_rgba(0,0,0,0,60)]">
@@ -251,7 +196,7 @@
             <li :class=" activeBottomTab === 1 ? activeTabClass : '' "
                 @click=" activeBottomTab = 1 "
                 class="w-full"><a class="flex flex-col items-center justify-between"
-                                  href="#">
+                                  href="index.html">
                         <span><svg fill="#fff"
                                    height="24"
                                    width="24"
@@ -274,7 +219,7 @@
             <li :class=" activeBottomTab === 2 ? activeTabClass : '' "
                 @click=" activeBottomTab = 2 "
                 class="w-full"><a class="flex flex-col items-center justify-between"
-                                  href="#">
+                                  href="category.html">
                 <svg fill="none"
                      height="24"
                      viewBox="0 0 24 24"
@@ -316,7 +261,7 @@
             <li :class=" activeBottomTab === 3 ? activeTabClass : '' "
                 @click=" activeBottomTab = 3 "
                 class="w-full"><a class="flex flex-col items-center justify-between"
-                                  href="#">
+                                  href="cart.html">
                 <svg fill="none"
                      height="24"
                      viewBox="0 0 24 24"

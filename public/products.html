@@ -27,7 +27,7 @@
         <div class="container p-2 grid grid-cols-2 justify-center items-center gap-5">
             <nav>
                 <ul class="flex justify-evenly items-center gap-4">
-                    <li class=""><a href="">
+                    <li class=""><a href="index.html">
                             <svg fill="none" height="26" viewBox="0 0 99 26" width="99"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -40,11 +40,11 @@
                         </a></li>
                     <li class=""><a
                             class="text-slate-600 hover:text-orange-400 transition-all font-bold text-xs lg:text-sm"
-                            href="">خانه</a>
+                            href="index.html">خانه</a>
                     </li>
                     <li class="text-xs font-bold lg:text-sm"><a
                             class="text-slate-600 hover:text-orange-400 transition-all text-xs font-bold lg:text-sm"
-                            href="">تلفن
+                            href="products.html">تلفن
                             همراه</a></li>
                     <li class=""><a
                             class="text-slate-600 hover:text-orange-400 transition-all text-xs font-bold lg:text-sm"
@@ -56,10 +56,10 @@
                             هوشمند</a></li>
                 </ul>
             </nav>
-            <div class="flex items-center gap-5">
+            <div class="flex items-center gap-5 ">
                 <!-- Input search -->
-                <form action="" class="w-full">
-                    <label class="border-none relative" for="search">
+                <form action="" class="w-full group resultSearch">
+                    <label class="border-none relative " for="search">
                         <button class="text-slate-400 absolute top-0 right-4">
                             <svg fill="none" height="24" width="24" xmlns="http://www.w3.org/2000/svg">
                                 <path clip-rule="evenodd"
@@ -69,8 +69,8 @@
                             </svg>
                         </button>
                         <input
-                            class="w-full h-9 lg:h-12 bg-slate-100 outline-none focus:ring-1 transition-all ring-1 ring-white focus:ring-slate-300 placeholder:text-gray-300 text-slate-800 text-xs lg:text-sm rounded-lg border-none pr-12"
-                            id="search" placeholder="جستجوی نام محصول،نام برند، نام مدل و..." type="text">
+                            class="w-full h-9 lg:h-12 bg-slate-100 outline-none focus:ring-1 transition-all  ring-1 ring-white focus:ring-slate-300 placeholder:text-gray-300 text-slate-800 text-xs lg:text-sm rounded-lg border-none pr-12"
+                            id="searchbar" placeholder="جستجوی نام محصول،نام برند، نام مدل و..." type="text">
                     </label>
                 </form>
 
@@ -187,33 +187,143 @@
             </div>
         </div>
     </header>
-    <!-- app bar -->
-    <section class="container grid md:hidden grid-cols-2 justify-between items-center mt-6 px-5 gap-2">
-        <article>
-            <button class="flex justify-center w-full bg-white p-3 rounded group">
-                <span><svg class="w-6 h-6 stroke-gray-300 group-hover:stroke-orange-600" fill="none"
-                        stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M10.5 6h9.75M10.5 6a1.5 1.5 0 11-3 0m3 0a1.5 1.5 0 10-3 0M3.75 6H7.5m3 12h9.75m-9.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-3.75 0H7.5m9-6h3.75m-3.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-9.75 0h9.75"
-                            stroke-linecap="round" stroke-linejoin="round" />
-                    </svg>
-                </span>
-                <span class="text-sm font-medium pr-3 text-slate-800">محبوب ترین </span>
-            </button>
-        </article>
-        <article>
-            <button class="flex justify-center bg-white w-full p-3 rounded group">
-                <span><svg class="w-6 h-6 stroke-gray-300 group-hover:stroke-orange-600" fill="none"
-                        stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M12 3c2.755 0 5.455.232 8.083.678.533.09.917.556.917 1.096v1.044a2.25 2.25 0 01-.659 1.591l-5.432 5.432a2.25 2.25 0 00-.659 1.591v2.927a2.25 2.25 0 01-1.244 2.013L9.75 21v-6.568a2.25 2.25 0 00-.659-1.591L3.659 7.409A2.25 2.25 0 013 5.818V4.774c0-.54.384-1.006.917-1.096A48.32 48.32 0 0112 3z"
-                            stroke-linecap="round" stroke-linejoin="round" />
-                    </svg>
-                </span>
-                <span class="text-sm font-medium pr-3 text-slate-800">فیلتر</span>
-            </button>
-        </article>
-    </section>
+<!-- tab bar smartphone -->
+<section class="z-50 block md:hidden shadow-[0_-4px_8px_0_rgba(0,0,0,0,60)]">
+    <nav class="fixed bottom-0 left-0 right-0 bg-white flex items-center justify-center p-2 rounded-tl-xl rounded-tr-xl shadow- shadow-slate-200 w-full z-50">
+        <ul class="w-full flex justify-evenly itemse-center "
+            x-data="{activeBottomTab: 1, activeTabClass: ' text-slate-900 transition-all duration-200 ' }">
+            <li :class=" activeBottomTab === 1 ? activeTabClass : '' "
+                @click=" activeBottomTab = 1 "
+                class="w-full"><a class="flex flex-col items-center justify-between"
+                                  href="index.html">
+                        <span><svg fill="#fff"
+                                   height="24"
+                                   width="24"
+                                   xmlns="http://www.w3.org/2000/svg">
+                                <path d="M9.079 16.136h5.815"
+                                      stroke="#e2e2e2"
+                                      stroke-linecap="round"
+                                      stroke-linejoin="round"
+                                      stroke-width="1.5"/>
+                                <path clip-rule="evenodd"
+                                      d="M2.4 13.713c0-5.631.614-5.238 3.919-8.303C7.765 4.246 10.015 2 11.958 2c1.942 0 4.237 2.235 5.696 3.41 3.305 3.065 3.918 2.672 3.918 8.303C21.572 22 19.612 22 11.986 22 4.359 22 2.4 22 2.4 13.713Z"
+                                      stroke="currentColor"
+                                      stroke-linecap="round"
+                                      stroke-linejoin="round"
+                                      stroke-width="1.5"/>
+                            </svg></span>
+                <span class="pt-2 text-xs font-bold"
+                      x-show=" activeBottomTab === 1 "> خانه </span>
+            </a></li>
+            <li :class=" activeBottomTab === 2 ? activeTabClass : '' "
+                @click=" activeBottomTab = 2 "
+                class="w-full"><a class="flex flex-col items-center justify-between"
+                                  href="category.html">
+                <svg fill="none"
+                     height="24"
+                     viewBox="0 0 24 24"
+                     width="24"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path clip-rule="evenodd"
+                          d="M21.0003 6.6738C21.0003 8.7024 19.3551 10.3476 17.3265 10.3476C15.2979 10.3476 13.6536 8.7024 13.6536 6.6738C13.6536 4.6452 15.2979 3 17.3265 3C19.3551 3 21.0003 4.6452 21.0003 6.6738Z"
+                          fill-rule="evenodd"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="1.5"/>
+                    <path clip-rule="evenodd"
+                          d="M10.3467 6.6738C10.3467 8.7024 8.7024 10.3476 6.6729 10.3476C4.6452 10.3476 3 8.7024 3 6.6738C3 4.6452 4.6452 3 6.6729 3C8.7024 3 10.3467 4.6452 10.3467 6.6738Z"
+                          fill-rule="evenodd"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="1.5"/>
+                    <path clip-rule="evenodd"
+                          d="M21.0003 17.2619C21.0003 19.2905 19.3551 20.9348 17.3265 20.9348C15.2979 20.9348 13.6536 19.2905 13.6536 17.2619C13.6536 15.2333 15.2979 13.5881 17.3265 13.5881C19.3551 13.5881 21.0003 15.2333 21.0003 17.2619Z"
+                          fill-rule="evenodd"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="1.5"/>
+                    <path clip-rule="evenodd"
+                          d="M10.3467 17.2619C10.3467 19.2905 8.7024 20.9348 6.6729 20.9348C4.6452 20.9348 3 19.2905 3 17.2619C3 15.2333 4.6452 13.5881 6.6729 13.5881C8.7024 13.5881 10.3467 15.2333 10.3467 17.2619Z"
+                          fill-rule="evenodd"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="1.5"/>
+                </svg>
+
+                <span class="pt-2 text-xs font-bold"
+                      x-show=" activeBottomTab === 2 "> دسته بندی </span>
+            </a></li>
+            <li :class=" activeBottomTab === 3 ? activeTabClass : '' "
+                @click=" activeBottomTab = 3 "
+                class="w-full"><a class="flex flex-col items-center justify-between"
+                                  href="cart.html">
+                <svg fill="none"
+                     height="24"
+                     viewBox="0 0 24 24"
+                     width="24"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path
+                            d="M16.3638 6.86985C16.3638 4.48385 14.4298 2.54985 12.0438 2.54985C9.65783 2.53885 7.71583 4.46485 7.70483 6.85085V6.86985"
+                            stroke="currentColor"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="1.5"/>
+                    <path d="M14.9727 11.3738H14.9267"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="1.5"/>
+                    <path d="M9.14165 11.3738H9.09565"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="1.5"/>
+                    <path clip-rule="evenodd"
+                          d="M12.0342 21.4894C5.52619 21.4894 4.77719 19.4394 3.31619 14.0224C1.85019 8.58842 4.79119 6.55542 12.0342 6.55542C19.2772 6.55542 22.2182 8.58842 20.7522 14.0224C19.2912 19.4394 18.5422 21.4894 12.0342 21.4894Z"
+                          fill-rule="evenodd"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="1.5"/>
+                </svg>
+
+                <span class="pt-2 text-xs font-bold"
+                      x-show=" activeBottomTab === 3 "> سبد خرید </span>
+            </a></li>
+            <li :class=" activeBottomTab === 4 ? activeTabClass : '' "
+                @click=" activeBottomTab = 4 "
+                class="w-full"><a class="flex flex-col items-center justify-between"
+                                  href="#">
+                        <span>
+                            <svg fill="none"
+                                 height="24"
+                                 viewBox="0 0 24 24"
+                                 width="24"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path clip-rule="evenodd"
+                                      d="M2.92178 12.4462C1.84878 9.09619 3.10378 4.93119 6.62078 3.79919C8.47078 3.20219 10.7538 3.70019 12.0508 5.48919C13.2738 3.63419 15.6228 3.20619 17.4708 3.79919C20.9868 4.93119 22.2488 9.09619 21.1768 12.4462C19.5068 17.7562 13.6798 20.5222 12.0508 20.5222C10.4228 20.5222 4.64778 17.8182 2.92178 12.4462Z"
+                                      fill-rule="evenodd"
+                                      stroke="currentColor"
+                                      stroke-linecap="round"
+                                      stroke-linejoin="round"
+                                      stroke-width="1.5"/>
+                                <path d="M15.7885 7.56396C16.9955 7.68796 17.7505 8.64496 17.7055 9.98596"
+                                      stroke="currentColor"
+                                      stroke-linecap="round"
+                                      stroke-linejoin="round"
+                                      stroke-width="1.5"/>
+                            </svg>
+                        </span>
+                <span class="pt-2 text-xs font-bold"
+                      x-show=" activeBottomTab === 4 ">مورد علاقه ها</span>
+            </a></li>
+        </ul>
+    </nav>
+</section>
     <!-- section products -->
     <main class="container p-4 grid grid-cols-12 md:grid-rows-[55px_minmax(500,_1fr)] md:gap-8">
         <!-- aside -->
@@ -519,21 +629,26 @@
     </header>
     <script defer src="//unpkg.com/alpinejs"></script>
     <script src="/assets/js/app.js" type="module"></script>
+    <script src="/assets/js/search.js"></script>
+
+    <script defer src="//unpkg.com/alpinejs"></script>
+
+    <script src="/assets/js/swiper.js" type="module"></script>
 
     <script>
         document.addEventListener("DOMContentLoaded", () => {
             let products = [];
             axios.get('/sample/api/products.php')
-            .then((response) => {
-                products = response.data.items;
+                .then((response) => {
+                    products = response.data.items;
 
-                const ui = new UI();
-                ui.displayProducts(products);
+                    const ui = new UI();
+                    ui.displayProducts(products);
 
-                let storage = new Storage()
-                storage.saveProducts(products)
-            })
-            .catch((error) => { console.log(error) })
+                    let storage = new Storage()
+                    storage.saveProducts(products)
+                })
+                .catch((error) => { console.log(error) })
         })
     </script>
 </body>

@@ -3,24 +3,20 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
-        name="viewport">
-    <meta content="ie=edge" http-equiv="X-UA-Compatible">
-    <title> دیجی تایز - فروشگاه اینترنتی موبایل </title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحه کاربری</title>
 
-    <link href="./build/tailwind.css" rel="stylesheet" type="text/css">
-
-    <!--  swiper css  -->
-    <link href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" rel="stylesheet" />
+    <link href="/assets/css/app.css" rel="stylesheet">
 </head>
 
 <body class="bg-gray-100">
     <!-- Header Desktop -->
-    <header class="w-full hidden md:flex sticky h-17 bg-white shadow-sm z-50">
+    <header class="w-full hidden md:flex sticky h-17 bg-white shadow-md z-50 shadow-slate-200">
         <div class="container p-2 grid grid-cols-2 justify-center items-center gap-5">
             <nav>
                 <ul class="flex justify-evenly items-center gap-4">
-                    <li class=""><a href="">
+                    <li class=""><a href="index.html">
                             <svg fill="none" height="26" viewBox="0 0 99 26" width="99"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -33,13 +29,12 @@
                         </a></li>
                     <li class=""><a
                             class="text-slate-600 hover:text-orange-400 transition-all font-bold text-xs lg:text-sm"
-                            href="">خانه</a>
+                            href="index.html">خانه</a>
                     </li>
-                    <li class="text-xs font-bold lg:text-sm">
-                        <a class="text-slate-600 hover:text-orange-400 transition-all text-xs font-bold lg:text-sm"
-                            href="">تلفن
-                            همراه</a>
-                    </li>
+                    <li class="text-xs font-bold lg:text-sm"><a
+                            class="text-slate-600 hover:text-orange-400 transition-all text-xs font-bold lg:text-sm"
+                            href="products.html">تلفن
+                            همراه</a></li>
                     <li class=""><a
                             class="text-slate-600 hover:text-orange-400 transition-all text-xs font-bold lg:text-sm"
                             href="">لپ
@@ -50,11 +45,11 @@
                             هوشمند</a></li>
                 </ul>
             </nav>
-            <div class="flex items-center gap-5">
+            <div class="flex items-center gap-5 ">
                 <!-- Input search -->
-                <form action="" class="w-full">
-                    <label class="border-none relative" for="search">
-                        <button class="text-slate-400 absolute top-1 right-4">
+                <form action="" class="w-full group resultSearch">
+                    <label class="border-none relative " for="search">
+                        <button class="text-slate-400 absolute top-0 right-4">
                             <svg fill="none" height="24" width="24" xmlns="http://www.w3.org/2000/svg">
                                 <path clip-rule="evenodd"
                                     d="M11.275 2.714a8.561 8.561 0 1 1 0 17.122 8.561 8.561 0 0 1 0-17.122ZM19.899 18.488a1.411 1.411 0 1 1-.001 2.822 1.411 1.411 0 0 1 0-2.822Z"
@@ -63,8 +58,8 @@
                             </svg>
                         </button>
                         <input
-                            class="w-full h-9 lg:h-11 bg-slate-100 outline-none focus:ring-1 transition-all ring-1 ring-white focus:ring-slate-300 lg:font-normal placeholder:text-slate-400 font-normal text-slate-800 text-sm lg:text-sm rounded-lg border-none pr-16"
-                            id="search" placeholder="جستجو" type="text">
+                            class="w-full h-9 lg:h-12 bg-slate-100 outline-none focus:ring-1 transition-all  ring-1 ring-white focus:ring-slate-300 placeholder:text-gray-300 text-slate-800 text-xs lg:text-sm rounded-lg border-none pr-12"
+                            id="searchbar" placeholder="جستجوی نام محصول،نام برند، نام مدل و..." type="text">
                     </label>
                 </form>
 
@@ -95,10 +90,10 @@
                             </a>
 
                             <div :class=" isOpen === true ? 'transition-all duration-200' : '' "
-                                class="flex bg-white rounded-lg shadow-sm overflow-hidden absolute top-12 -left-5 flex-col items-stretch justify-between z-10 w-64"
+                                class="flex bg-white rounded-md shadow-md shadow-slate-200 overflow-hidden absolute top-12 -left-5 flex-col items-stretch justify-between z-10 w-64"
                                 x-show=" isOpen === true ">
-                                <div class=" hover:bg-slate-100 transition-all group">
-                                    <a class="flex items-center justify-start gap-3 py-3 px-4" href="#">
+                                <div class=" hover:bg-slate-50 transition-all group"><a
+                                        class="flex items-center justify-start gap-3 py-3 px-4" href="#">
                                         <span
                                             class="rounded-full transition-all bg-slate-200 p-1 group-hover:bg-orange-100 group-hover:text-orange-500">
                                             <svg fill="none" height="24" width="24" xmlns="http://www.w3.org/2000/svg">
@@ -111,10 +106,9 @@
                                             </svg>
                                         </span>
                                         <span class="slate-500 text-sm font-bold"> سیدمحمد میرمحمدی </span>
-                                    </a>
-                                </div>
-                                <div class=" hover:bg-slate-100 transition-all group">
-                                    <a class="flex items-center justify-start gap-3 py-3 px-4" href="#">
+                                    </a></div>
+                                <div class=" hover:bg-slate-50 transition-all group"><a
+                                        class="flex items-center justify-start gap-3 py-3 px-4" href="#">
                                         <span
                                             class="rounded-full transition-all bg-slate-200 group-hover:bg-orange-100 p-1 group-hover:text-orange-500">
                                             <svg fill="none" height="24" width="24" xmlns="http://www.w3.org/2000/svg">
@@ -128,10 +122,9 @@
                                             </svg>
                                         </span>
                                         <span class="slate-500 text-sm font-bold"> سفارش ها </span>
-                                    </a>
-                                </div>
-                                <div class=" hover:bg-slate-100 transition-all group">
-                                    <a class="flex items-center justify-start gap-3 py-3 px-4" href="#">
+                                    </a></div>
+                                <div class=" hover:bg-slate-50 transition-all group"><a
+                                        class="flex items-center justify-start gap-3 py-3 px-4" href="#">
                                         <span
                                             class="rounded-full transition-all bg-slate-200 group-hover:bg-orange-100 p-1 group-hover:text-orange-500">
                                             <svg fill="none" height="24" width="24" xmlns="http://www.w3.org/2000/svg">
@@ -144,10 +137,9 @@
                                             </svg>
                                         </span>
                                         <span class="slate-500 text-sm font-bold"> کیف پول </span>
-                                    </a>
-                                </div>
-                                <div class=" hover:bg-slate-100 transition-all group">
-                                    <a class="flex items-center justify-start gap-3 py-3 px-4" href="#">
+                                    </a></div>
+                                <div class=" hover:bg-slate-50 transition-all group"><a
+                                        class="flex items-center justify-start gap-3 py-3 px-4" href="#">
                                         <span
                                             class="rounded-full transition-all bg-slate-200 group-hover:bg-orange-100 p-1 group-hover:text-orange-500">
                                             <svg fill="none" height="24" width="24" xmlns="http://www.w3.org/2000/svg">
@@ -160,8 +152,7 @@
                                             </svg>
                                         </span>
                                         <span class="slate-500 text-sm font-bold"> لیست ها </span>
-                                    </a>
-                                </div>
+                                    </a></div>
                             </div>
                         </div>
                     </div>
@@ -170,99 +161,158 @@
                     <a class="hover:text-orange-500 transition-all duration-200" href="#">
                         <svg fill="none" height="24" width="24" xmlns="http://www.w3.org/2000/svg">
                             <path
-                                d="M5.524 7C9.414 5.744 13.972 5.456 16 5.5c2.028.044 2.883.766 3.5 2 1 2 .789 6.988-1 8.587-1.788 1.6-9.17 1.751-11.63 0-2.599-1.85-1.241-6.895-1.326-10.344C5.595 3.813 3.5 3.5 3.5 3.5M13 10.5h2.773"
+                                d="M16.364 6.87a4.32 4.32 0 0 0-4.32-4.32 4.32 4.32 0 0 0-4.34 4.3v.02M14.973 11.374h-.046M9.142 11.374h-.046"
                                 stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                                 stroke-width="1.5" />
                             <path clip-rule="evenodd"
-                                d="M7.264 20.127a.545.545 0 1 1-.001 1.09.545.545 0 0 1 .001-1.09ZM17.595 20.127a.545.545 0 1 1 0 1.09.545.545 0 0 1 0-1.09Z"
-                                fill="currentColor" fill-rule="evenodd" stroke="currentColor" stroke-linecap="round"
-                                stroke-linejoin="round" stroke-width="1.5" />
+                                d="M12.034 21.49c-6.508 0-7.257-2.05-8.718-7.468-1.466-5.434 1.475-7.467 8.718-7.467s10.184 2.033 8.718 7.467c-1.46 5.417-2.21 7.467-8.718 7.467Z"
+                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="1.5" />
                         </svg>
+
+                        <!-- <img src="/assets/images/svg/bag.svg" alt="" width="41px" height="41px"> -->
                     </a>
                 </div>
             </div>
         </div>
     </header>
-
-    <!-- tab bar smartphone -->
-    <section class="z-50 block md:hidden shadow-[0_-4px_8px_0_rgba(0,0,0,0,60)]">
-        <nav
-            class="fixed bottom-0 left-0 right-0 bg-white flex items-center justify-center p-2 rounded-tl-xl rounded-tr-xl shadow- shadow-slate-200 w-full z-50">
-            <ul class="w-full flex justify-evenly itemse-center "
-                x-data="{activeBottomTab: 1, activeTabClass: ' text-slate-900 transition-all duration-200 ' }">
-                <li :class=" activeBottomTab === 1 ? activeTabClass : '' " @click=" activeBottomTab = 1 "
-                    class="w-full"><a class="flex flex-col items-center justify-between" href="#">
-                        <span><svg fill="#fff" height="24" width="24" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M9.079 16.136h5.815" stroke="#e2e2e2" stroke-linecap="round"
-                                    stroke-linejoin="round" stroke-width="1.5" />
+<!-- tab bar smartphone -->
+<section class="z-50 block md:hidden shadow-[0_-4px_8px_0_rgba(0,0,0,0,60)]">
+    <nav class="fixed bottom-0 left-0 right-0 bg-white flex items-center justify-center p-2 rounded-tl-xl rounded-tr-xl shadow- shadow-slate-200 w-full z-50">
+        <ul class="w-full flex justify-evenly itemse-center "
+            x-data="{activeBottomTab: 1, activeTabClass: ' text-slate-900 transition-all duration-200 ' }">
+            <li :class=" activeBottomTab === 1 ? activeTabClass : '' "
+                @click=" activeBottomTab = 1 "
+                class="w-full"><a class="flex flex-col items-center justify-between"
+                                  href="index.html">
+                        <span><svg fill="#fff"
+                                   height="24"
+                                   width="24"
+                                   xmlns="http://www.w3.org/2000/svg">
+                                <path d="M9.079 16.136h5.815"
+                                      stroke="#e2e2e2"
+                                      stroke-linecap="round"
+                                      stroke-linejoin="round"
+                                      stroke-width="1.5"/>
                                 <path clip-rule="evenodd"
-                                    d="M2.4 13.713c0-5.631.614-5.238 3.919-8.303C7.765 4.246 10.015 2 11.958 2c1.942 0 4.237 2.235 5.696 3.41 3.305 3.065 3.918 2.672 3.918 8.303C21.572 22 19.612 22 11.986 22 4.359 22 2.4 22 2.4 13.713Z"
-                                    stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                    stroke-width="1.5" />
+                                      d="M2.4 13.713c0-5.631.614-5.238 3.919-8.303C7.765 4.246 10.015 2 11.958 2c1.942 0 4.237 2.235 5.696 3.41 3.305 3.065 3.918 2.672 3.918 8.303C21.572 22 19.612 22 11.986 22 4.359 22 2.4 22 2.4 13.713Z"
+                                      stroke="currentColor"
+                                      stroke-linecap="round"
+                                      stroke-linejoin="round"
+                                      stroke-width="1.5"/>
                             </svg></span>
-                        <span class="pt-2 text-xs font-bold" x-show=" activeBottomTab === 1 "> خانه </span>
-                    </a></li>
-                <li :class=" activeBottomTab === 2 ? activeTabClass : '' " @click=" activeBottomTab = 2 "
-                    class="w-full"><a class="flex flex-col items-center justify-between" href="#">
-                        <svg fill="none" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-                            <path clip-rule="evenodd"
-                                d="M21.0003 6.6738C21.0003 8.7024 19.3551 10.3476 17.3265 10.3476C15.2979 10.3476 13.6536 8.7024 13.6536 6.6738C13.6536 4.6452 15.2979 3 17.3265 3C19.3551 3 21.0003 4.6452 21.0003 6.6738Z"
-                                fill-rule="evenodd" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                stroke-width="1.5" />
-                            <path clip-rule="evenodd"
-                                d="M10.3467 6.6738C10.3467 8.7024 8.7024 10.3476 6.6729 10.3476C4.6452 10.3476 3 8.7024 3 6.6738C3 4.6452 4.6452 3 6.6729 3C8.7024 3 10.3467 4.6452 10.3467 6.6738Z"
-                                fill-rule="evenodd" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                stroke-width="1.5" />
-                            <path clip-rule="evenodd"
-                                d="M21.0003 17.2619C21.0003 19.2905 19.3551 20.9348 17.3265 20.9348C15.2979 20.9348 13.6536 19.2905 13.6536 17.2619C13.6536 15.2333 15.2979 13.5881 17.3265 13.5881C19.3551 13.5881 21.0003 15.2333 21.0003 17.2619Z"
-                                fill-rule="evenodd" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                stroke-width="1.5" />
-                            <path clip-rule="evenodd"
-                                d="M10.3467 17.2619C10.3467 19.2905 8.7024 20.9348 6.6729 20.9348C4.6452 20.9348 3 19.2905 3 17.2619C3 15.2333 4.6452 13.5881 6.6729 13.5881C8.7024 13.5881 10.3467 15.2333 10.3467 17.2619Z"
-                                fill-rule="evenodd" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                stroke-width="1.5" />
-                        </svg>
+                <span class="pt-2 text-xs font-bold"
+                      x-show=" activeBottomTab === 1 "> خانه </span>
+            </a></li>
+            <li :class=" activeBottomTab === 2 ? activeTabClass : '' "
+                @click=" activeBottomTab = 2 "
+                class="w-full"><a class="flex flex-col items-center justify-between"
+                                  href="category.html">
+                <svg fill="none"
+                     height="24"
+                     viewBox="0 0 24 24"
+                     width="24"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path clip-rule="evenodd"
+                          d="M21.0003 6.6738C21.0003 8.7024 19.3551 10.3476 17.3265 10.3476C15.2979 10.3476 13.6536 8.7024 13.6536 6.6738C13.6536 4.6452 15.2979 3 17.3265 3C19.3551 3 21.0003 4.6452 21.0003 6.6738Z"
+                          fill-rule="evenodd"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="1.5"/>
+                    <path clip-rule="evenodd"
+                          d="M10.3467 6.6738C10.3467 8.7024 8.7024 10.3476 6.6729 10.3476C4.6452 10.3476 3 8.7024 3 6.6738C3 4.6452 4.6452 3 6.6729 3C8.7024 3 10.3467 4.6452 10.3467 6.6738Z"
+                          fill-rule="evenodd"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="1.5"/>
+                    <path clip-rule="evenodd"
+                          d="M21.0003 17.2619C21.0003 19.2905 19.3551 20.9348 17.3265 20.9348C15.2979 20.9348 13.6536 19.2905 13.6536 17.2619C13.6536 15.2333 15.2979 13.5881 17.3265 13.5881C19.3551 13.5881 21.0003 15.2333 21.0003 17.2619Z"
+                          fill-rule="evenodd"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="1.5"/>
+                    <path clip-rule="evenodd"
+                          d="M10.3467 17.2619C10.3467 19.2905 8.7024 20.9348 6.6729 20.9348C4.6452 20.9348 3 19.2905 3 17.2619C3 15.2333 4.6452 13.5881 6.6729 13.5881C8.7024 13.5881 10.3467 15.2333 10.3467 17.2619Z"
+                          fill-rule="evenodd"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="1.5"/>
+                </svg>
 
-                        <span class="pt-2 text-xs font-bold" x-show=" activeBottomTab === 2 "> دسته بندی </span>
-                    </a></li>
-                <li :class=" activeBottomTab === 3 ? activeTabClass : '' " @click=" activeBottomTab = 3 "
-                    class="w-full"><a class="flex flex-col items-center justify-between" href="#">
-                        <svg fill="none" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M16.3638 6.86985C16.3638 4.48385 14.4298 2.54985 12.0438 2.54985C9.65783 2.53885 7.71583 4.46485 7.70483 6.85085V6.86985"
-                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                stroke-width="1.5" />
-                            <path d="M14.9727 11.3738H14.9267" stroke="currentColor" stroke-linecap="round"
-                                stroke-linejoin="round" stroke-width="1.5" />
-                            <path d="M9.14165 11.3738H9.09565" stroke="currentColor" stroke-linecap="round"
-                                stroke-linejoin="round" stroke-width="1.5" />
-                            <path clip-rule="evenodd"
-                                d="M12.0342 21.4894C5.52619 21.4894 4.77719 19.4394 3.31619 14.0224C1.85019 8.58842 4.79119 6.55542 12.0342 6.55542C19.2772 6.55542 22.2182 8.58842 20.7522 14.0224C19.2912 19.4394 18.5422 21.4894 12.0342 21.4894Z"
-                                fill-rule="evenodd" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                stroke-width="1.5" />
-                        </svg>
+                <span class="pt-2 text-xs font-bold"
+                      x-show=" activeBottomTab === 2 "> دسته بندی </span>
+            </a></li>
+            <li :class=" activeBottomTab === 3 ? activeTabClass : '' "
+                @click=" activeBottomTab = 3 "
+                class="w-full"><a class="flex flex-col items-center justify-between"
+                                  href="cart.html">
+                <svg fill="none"
+                     height="24"
+                     viewBox="0 0 24 24"
+                     width="24"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path
+                            d="M16.3638 6.86985C16.3638 4.48385 14.4298 2.54985 12.0438 2.54985C9.65783 2.53885 7.71583 4.46485 7.70483 6.85085V6.86985"
+                            stroke="currentColor"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="1.5"/>
+                    <path d="M14.9727 11.3738H14.9267"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="1.5"/>
+                    <path d="M9.14165 11.3738H9.09565"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="1.5"/>
+                    <path clip-rule="evenodd"
+                          d="M12.0342 21.4894C5.52619 21.4894 4.77719 19.4394 3.31619 14.0224C1.85019 8.58842 4.79119 6.55542 12.0342 6.55542C19.2772 6.55542 22.2182 8.58842 20.7522 14.0224C19.2912 19.4394 18.5422 21.4894 12.0342 21.4894Z"
+                          fill-rule="evenodd"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="1.5"/>
+                </svg>
 
-                        <span class="pt-2 text-xs font-bold" x-show=" activeBottomTab === 3 "> سبد خرید </span>
-                    </a></li>
-                <li :class=" activeBottomTab === 4 ? activeTabClass : '' " @click=" activeBottomTab = 4 "
-                    class="w-full"><a class="flex flex-col items-center justify-between" href="#">
+                <span class="pt-2 text-xs font-bold"
+                      x-show=" activeBottomTab === 3 "> سبد خرید </span>
+            </a></li>
+            <li :class=" activeBottomTab === 4 ? activeTabClass : '' "
+                @click=" activeBottomTab = 4 "
+                class="w-full"><a class="flex flex-col items-center justify-between"
+                                  href="#">
                         <span>
-                            <svg fill="none" height="24" viewBox="0 0 24 24" width="24"
-                                xmlns="http://www.w3.org/2000/svg">
+                            <svg fill="none"
+                                 height="24"
+                                 viewBox="0 0 24 24"
+                                 width="24"
+                                 xmlns="http://www.w3.org/2000/svg">
                                 <path clip-rule="evenodd"
-                                    d="M2.92178 12.4462C1.84878 9.09619 3.10378 4.93119 6.62078 3.79919C8.47078 3.20219 10.7538 3.70019 12.0508 5.48919C13.2738 3.63419 15.6228 3.20619 17.4708 3.79919C20.9868 4.93119 22.2488 9.09619 21.1768 12.4462C19.5068 17.7562 13.6798 20.5222 12.0508 20.5222C10.4228 20.5222 4.64778 17.8182 2.92178 12.4462Z"
-                                    fill-rule="evenodd" stroke="currentColor" stroke-linecap="round"
-                                    stroke-linejoin="round" stroke-width="1.5" />
+                                      d="M2.92178 12.4462C1.84878 9.09619 3.10378 4.93119 6.62078 3.79919C8.47078 3.20219 10.7538 3.70019 12.0508 5.48919C13.2738 3.63419 15.6228 3.20619 17.4708 3.79919C20.9868 4.93119 22.2488 9.09619 21.1768 12.4462C19.5068 17.7562 13.6798 20.5222 12.0508 20.5222C10.4228 20.5222 4.64778 17.8182 2.92178 12.4462Z"
+                                      fill-rule="evenodd"
+                                      stroke="currentColor"
+                                      stroke-linecap="round"
+                                      stroke-linejoin="round"
+                                      stroke-width="1.5"/>
                                 <path d="M15.7885 7.56396C16.9955 7.68796 17.7505 8.64496 17.7055 9.98596"
-                                    stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                    stroke-width="1.5" />
+                                      stroke="currentColor"
+                                      stroke-linecap="round"
+                                      stroke-linejoin="round"
+                                      stroke-width="1.5"/>
                             </svg>
                         </span>
-                        <span class="pt-2 text-xs font-bold" x-show=" activeBottomTab === 4 ">مورد علاقه ها</span>
-                    </a></li>
-            </ul>
-        </nav>
-    </section>
+                <span class="pt-2 text-xs font-bold"
+                      x-show=" activeBottomTab === 4 ">مورد علاقه ها</span>
+            </a></li>
+        </ul>
+    </nav>
+</section>
 
     <main class="container px-4 grid grid-cols-12 md:grid-rows-[55px_minmax(500,_1fr)] gap-5 md:gap-8 my-10">
         <!-- aside dashboard -->
@@ -615,7 +665,7 @@
             </div>
             <article class="overflow-hidden px-4 rounded-xl">
                 <div class="blogSwiper mySiwper rounded-xl mt-10">
-                    <div class="swiper-wrapper ">
+                    <div class="swiper-wrapper flex">
                         <figure class="swiper-slide rounded-xl shadow-sm">
                             <div class="rounded-xl overflow-hidden w-full h-auto"><img class="w-full"
                                     src="./../assets/images/products/1.png" alt="" class="rounded-xl"></div>
@@ -770,7 +820,7 @@
 
             <article class="overflow-hidden px-4 rounded-xl">
                 <div class="blogSwiper mySiwper rounded-xl mt-10">
-                    <div class="swiper-wrapper ">
+                    <div class="swiper-wrapper flex">
                         <figure class="swiper-slide rounded-xl shadow-sm">
                             <div class="rounded-xl overflow-hidden w-full h-auto"><img class="w-full"
                                     src="./../assets/images/products/1.png" alt="" class="rounded-xl"></div>
@@ -1004,8 +1054,7 @@
             </div>
         </article>
     </footer>
-
     <script defer src="//unpkg.com/alpinejs"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-    <script src="/src/js/swiper.js" type="module"></script>
+    <script src="/assets/js/swiper.js" type="module"></script>
 </body>
